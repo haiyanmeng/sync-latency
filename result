@@ -1,0 +1,5 @@
+Sync 2000 ConfigMaps (1000 Namespaces, and two ConfigMaps in every Namespace):
+first run: 4m 8s
+      lastUpdate: "2021-10-12T21:38:33Z"
+      lastUpdate: "2021-10-12T21:42:41Z"
+
