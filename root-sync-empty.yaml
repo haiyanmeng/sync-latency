@@ -1,0 +1,12 @@
+# root-sync.yaml
+apiVersion: configsync.gke.io/v1alpha1
+kind: RootSync
+metadata:
+  name: root-sync
+  namespace: config-management-system
+spec:
+  sourceFormat: unstructured
+  git:
+    repo: https://github.com/haiyanmeng/csmr-sample
+    dir: empty
+    auth: none

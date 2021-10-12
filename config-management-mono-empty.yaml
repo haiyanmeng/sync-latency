@@ -1,0 +1,12 @@
+# config-management.yaml
+apiVersion: configmanagement.gke.io/v1
+kind: ConfigManagement
+metadata:
+  name: config-management
+spec:
+  sourceFormat: unstructured
+  git:
+    syncRepo: https://github.com/haiyanmeng/csmr-sample
+    syncBranch: main
+    policyDir: empty
+    secretType: none
