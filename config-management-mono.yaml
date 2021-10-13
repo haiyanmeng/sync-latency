@@ -8,5 +8,5 @@ spec:
   git:
     syncRepo: https://github.com/haiyanmeng/sync-latency
     syncBranch: main
-    policyDir: configs
+    policyDir: configs-5000-cms
     secretType: none

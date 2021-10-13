@@ -9,5 +9,5 @@ spec:
   git:
     repo: https://github.com/haiyanmeng/sync-latency
     branch: main
-    dir: configs
+    dir: configs-5000-cms
     auth: none
