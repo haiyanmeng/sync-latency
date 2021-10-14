@@ -52,7 +52,9 @@ second run: 4m 15s
 third run: 4m 15s
 			      18:05:55.730358
       lastUpdate: "2021-10-14T18:10:10Z"
-
+fourth run: 4m 19s
+				19:07:42.757407
+	lastUpdate: "2021-10-14T19:12:01Z"
 
 1.10.0 Multi-repo mode Sync 5000 ConfigMaps (5 Namespaces, and 1000 ConfigMaps in every Namespace):
 first run: 1m 27s
@@ -65,3 +67,36 @@ third run: 1m 29s
       lastUpdate: "2021-10-14T17:44:19Z"
       lastUpdate: "2021-10-14T17:45:48Z"
 
+1.10.0 Mono-repo mode Sync 10000 ConfigMaps (10 Namespaces, and 1000 ConfigMaps in every Namespace):
+
+1.10.0 Multi-repo mode Sync 10000 ConfigMaps (10 Namespaces, and 1000 ConfigMaps in every Namespace):
+
+1.9.0 Mono-repo mode Sync 10000 ConfigMaps (10 Namespaces, and 1000 ConfigMaps in every Namespace):
+
+1.9.0 Multi-repo mode Sync 10000 ConfigMaps (10 Namespaces, and 1000 ConfigMaps in every Namespace):
+
+1.10.0 Mono-repo mode Sync 5000 ConfigMaps in a single namespace:
+          KNV2002: failed to create object: APIServer error: etcdserver: request is too large
+
+          source: configs-5000-cms-one-ns/ns-1.yaml
+          metadata.name: my-ns-1
+          group: configmanagement.gke.io
+          version: v1
+          kind: NamespaceConfig
+
+          For more information, see https://g.co/cloud/acm-errors#knv2002
+
+
+1.10.0 Multi-repo mode Sync 5000 ConfigMaps in a single namespace:
+first run: 1m 33s
+      lastUpdate: "2021-10-14T18:22:12Z"
+      lastUpdate: "2021-10-14T18:23:45Z"
+second run: 1m 39s
+      lastUpdate: "2021-10-14T18:49:27Z"
+      lastUpdate: "2021-10-14T18:51:06Z"
+
+1.10.0 Multi-repo mode Sync 10000 ConfigMaps in a single namespace:
+first run:
+seconds run:
+
+1.9.0 Multi-repo mode Sync 10000 ConfigMaps in a single namespace:
