@@ -6,8 +6,12 @@ metadata:
   namespace: config-management-system
 spec:
   sourceFormat: unstructured
+  override:
+    resources:
+    - containerName: "reconciler"
+      memoryLimit: 500Mi
   git:
     repo: https://github.com/haiyanmeng/sync-latency
     branch: main
-    dir: configs-5000-cms
+    dir: configs-5000-cms-one-ns
     auth: none

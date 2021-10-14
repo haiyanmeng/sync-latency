@@ -5,8 +5,22 @@ metadata:
   name: config-management
 spec:
   sourceFormat: unstructured
+  patches:
+  - apiVersion: apps/v1
+    kind: Deployment
+    metadata:
+      name: git-importer
+      namespace: config-management-system
+    spec:
+      template:
+        spec:
+          containers:
+          - name: importer
+            resources:
+              limits:
+                memory: "500Mi"
   git:
     syncRepo: https://github.com/haiyanmeng/sync-latency
     syncBranch: main
-    policyDir: configs-5000-cms
+    policyDir: configs-5000-cms-one-ns
     secretType: none
