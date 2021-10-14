@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: cm-787
+  namespace: my-ns-9
+data:
+  foo: bar
+  bar: my-ns-9

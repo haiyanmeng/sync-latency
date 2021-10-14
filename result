@@ -67,14 +67,6 @@ third run: 1m 29s
       lastUpdate: "2021-10-14T17:44:19Z"
       lastUpdate: "2021-10-14T17:45:48Z"
 
-1.10.0 Mono-repo mode Sync 10000 ConfigMaps (10 Namespaces, and 1000 ConfigMaps in every Namespace):
-
-1.10.0 Multi-repo mode Sync 10000 ConfigMaps (10 Namespaces, and 1000 ConfigMaps in every Namespace):
-
-1.9.0 Mono-repo mode Sync 10000 ConfigMaps (10 Namespaces, and 1000 ConfigMaps in every Namespace):
-
-1.9.0 Multi-repo mode Sync 10000 ConfigMaps (10 Namespaces, and 1000 ConfigMaps in every Namespace):
-
 1.10.0 Mono-repo mode Sync 5000 ConfigMaps in a single namespace:
           KNV2002: failed to create object: APIServer error: etcdserver: request is too large
 
@@ -96,7 +88,21 @@ second run: 1m 39s
       lastUpdate: "2021-10-14T18:51:06Z"
 
 1.10.0 Multi-repo mode Sync 10000 ConfigMaps in a single namespace:
-first run:
-seconds run:
+first run: 5m 10s
+    lastUpdate: "2021-10-14T19:46:48Z"
+    lastUpdate: "2021-10-14T19:51:58Z"
+seconds run: 4m 22s
+    lastUpdate: "2021-10-14T19:56:19Z"
+    lastUpdate: "2021-10-14T20:00:41Z"
+
+
+
+1.10.0 Multi-repo mode Sync 10000 ConfigMaps (10 Namespaces, and 1000 ConfigMaps in every Namespace):
+
+1.10.0 Mono-repo mode Sync 10000 ConfigMaps (10 Namespaces, and 1000 ConfigMaps in every Namespace):
+
+1.9.0 Mono-repo mode Sync 10000 ConfigMaps (10 Namespaces, and 1000 ConfigMaps in every Namespace):
+
+1.9.0 Multi-repo mode Sync 10000 ConfigMaps (10 Namespaces, and 1000 ConfigMaps in every Namespace):
 
 1.9.0 Multi-repo mode Sync 10000 ConfigMaps in a single namespace:

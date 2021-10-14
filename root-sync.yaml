@@ -9,9 +9,9 @@ spec:
   override:
     resources:
     - containerName: "reconciler"
-      memoryLimit: 500Mi
+      memoryLimit: 1000Mi
   git:
     repo: https://github.com/haiyanmeng/sync-latency
     branch: main
-    dir: configs-10000-cms-one-ns
+    dir: configs-10000-cms
     auth: none
