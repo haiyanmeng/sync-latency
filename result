@@ -95,14 +95,46 @@ seconds run: 4m 22s
     lastUpdate: "2021-10-14T19:56:19Z"
     lastUpdate: "2021-10-14T20:00:41Z"
 
-
+1.10.0 Mono-repo mode Sync 10000 ConfigMaps (10 Namespaces, and 1000 ConfigMaps in every Namespace):
+first run: 8m 35s
+			    20:31:04.839918
+    lastUpdate: "2021-10-14T20:39:39Z"
+second run: 9m 19s
+			    20:46:50.480971
+    lastUpdate: "2021-10-14T20:56:09Z"
+third run: 8m 33s
+				21:46:16.004906
+        lastUpdate: "2021-10-14T21:54:49Z"
 
 1.10.0 Multi-repo mode Sync 10000 ConfigMaps (10 Namespaces, and 1000 ConfigMaps in every Namespace):
-
-1.10.0 Mono-repo mode Sync 10000 ConfigMaps (10 Namespaces, and 1000 ConfigMaps in every Namespace):
-
-1.9.0 Mono-repo mode Sync 10000 ConfigMaps (10 Namespaces, and 1000 ConfigMaps in every Namespace):
+first run: 3m 22s
+    lastUpdate: "2021-10-14T20:18:12Z"
+    lastUpdate: "2021-10-14T20:21:34Z"
+second run: 3m 27s
+    lastUpdate: "2021-10-14T20:25:37Z"
+    lastUpdate: "2021-10-14T20:29:04Z"
+third run: 3m 22s
+    lastUpdate: "2021-10-14T22:54:15Z"
+    lastUpdate: "2021-10-14T22:57:33Z"
 
 1.9.0 Multi-repo mode Sync 10000 ConfigMaps (10 Namespaces, and 1000 ConfigMaps in every Namespace):
+first run: 33m 31s
+    lastUpdate: "2021-10-15T00:14:32Z"
+    lastUpdate: "2021-10-15T00:48:03Z"
+second run: 33m 29s
+    lastUpdate: "2021-10-15T00:55:40Z"
+    lastUpdate: "2021-10-15T01:29:09Z"
+third run: 33m 29s
+      lastUpdate: "2021-10-15T17:23:37Z"
+      lastUpdate: "2021-10-15T17:57:06Z"
+
+
+1.9.0 Mono-repo mode Sync 10000 ConfigMaps (10 Namespaces, and 1000 ConfigMaps in every Namespace):
+first run: 8m 38s
+ 		 	   00:11:58.907931
+    lastUpdate: "2021-10-16T00:20:36Z"
 
 1.9.0 Multi-repo mode Sync 10000 ConfigMaps in a single namespace:
+first run: 33m 40s
+    lastUpdate: "2021-10-16T00:26:30Z"
+    lastUpdate: "2021-10-16T01:00:10Z"

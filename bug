@@ -1,0 +1,32 @@
+  rendering:
+    commit: 1508258419a571c3f37bfcdbc0be22615936b871
+    gitStatus:
+      branch: main
+      dir: configs-10000-cms
+      repo: https://github.com/haiyanmeng/sync-latency
+      revision: HEAD
+    lastUpdate: "2021-10-14T20:18:12Z"
+    message: Rendering skipped
+  source:
+    commit: 252edaea3e6d312ec0e7a872c0b6edafc2dae90b
+    errors:
+    - code: "2001"
+      errorMessage: |-
+        KNV2001: evaluating symbolic link to policy sourceRoot: lstat /repo/source/252edaea3e6d312ec0e7a872c0b6edafc2dae90b/configs-10000-cms: no such file or directory
+
+        path: /repo/source/252edaea3e6d312ec0e7a872c0b6edafc2dae90b/configs-10000-cms/
+
+        For more information, see https://g.co/cloud/acm-errors#knv2001
+      errorResources:
+      - gvk:
+          group: ""
+          kind: ""
+          version: ""
+        sourcePath: /repo/source/252edaea3e6d312ec0e7a872c0b6edafc2dae90b/configs-10000-cms
+    gitStatus:
+      branch: main
+      dir: configs-10000-cms
+      repo: https://github.com/haiyanmeng/sync-latency
+      revision: HEAD
+    lastUpdate: "2021-10-14T20:07:48Z"
+
