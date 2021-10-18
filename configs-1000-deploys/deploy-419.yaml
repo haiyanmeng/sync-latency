@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nginx419
+  namespace: bookstore
+spec:
+  replicas: 1
+  minReadySeconds: 9
+  selector:
+    matchLabels:
+      app: nginx419
+  template:
+    metadata:
+      labels:
+        app: nginx419
+    spec:
+      containers:
+      - image: nginx:1.7.9
+        name: nginx419
+        imagePullPolicy: IfNotPresent
+        ports:
+        - containerPort: 80
+          protocol: TCP

@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nginx698
+  namespace: bookstore
+spec:
+  replicas: 1
+  minReadySeconds: 9
+  selector:
+    matchLabels:
+      app: nginx698
+  template:
+    metadata:
+      labels:
+        app: nginx698
+    spec:
+      containers:
+      - image: nginx:1.7.9
+        name: nginx698
+        imagePullPolicy: IfNotPresent
+        ports:
+        - containerPort: 80
+          protocol: TCP

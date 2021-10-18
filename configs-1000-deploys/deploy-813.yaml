@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nginx813
+  namespace: bookstore
+spec:
+  replicas: 1
+  minReadySeconds: 9
+  selector:
+    matchLabels:
+      app: nginx813
+  template:
+    metadata:
+      labels:
+        app: nginx813
+    spec:
+      containers:
+      - image: nginx:1.7.9
+        name: nginx813
+        imagePullPolicy: IfNotPresent
+        ports:
+        - containerPort: 80
+          protocol: TCP

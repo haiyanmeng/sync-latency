@@ -22,5 +22,5 @@ spec:
   git:
     syncRepo: https://github.com/haiyanmeng/sync-latency
     syncBranch: main
-    policyDir: configs-10000-cms
+    policyDir: configs-1000-deploys
     secretType: none

@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nginx374
+  namespace: bookstore
+spec:
+  replicas: 1
+  minReadySeconds: 9
+  selector:
+    matchLabels:
+      app: nginx374
+  template:
+    metadata:
+      labels:
+        app: nginx374
+    spec:
+      containers:
+      - image: nginx:1.7.9
+        name: nginx374
+        imagePullPolicy: IfNotPresent
+        ports:
+        - containerPort: 80
+          protocol: TCP
