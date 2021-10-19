@@ -28,18 +28,6 @@ metadata:
   namespace: foo${ns}
 ---
 apiVersion: iam.cnrm.cloud.google.com/v1beta1
-kind: IAMServiceAccountKey
-metadata:
-  name: pubsub-key
-  namespace: foo${ns}
-spec:
-  publicKeyType: TYPE_X509_PEM_FILE
-  keyAlgorithm: KEY_ALG_RSA_2048
-  privateKeyType: TYPE_GOOGLE_CREDENTIALS_FILE
-  serviceAccountRef:
-    name: pubsub-app
----
-apiVersion: iam.cnrm.cloud.google.com/v1beta1
 kind: IAMPolicyMember
 metadata:
   name: policy-member-binding
