@@ -1,6 +1,40 @@
-1.9.0 mono-repo mode 1000 ns (each has one pubsubtopic.pubsub.cnrm.cloud.google.com, pubsubsubscription.pubsub.cnrm.cloud.google.com, iampolicymember.iam.cnrm.cloud.google.com, iamserviceaccount.iam.cnrm.cloud.google.com)
+1.9.0 mono-repo mode 1000 ns (each ns has one service.serviceusage.cnrm.cloud.google.com, pubsubtopic.pubsub.cnrm.cloud.google.com, pubsubsubscription.pubsub.cnrm.cloud.google.com, iampolicymember.iam.cnrm.cloud.google.com, iamserviceaccount.iam.cnrm.cloud.google.com)
 first run: 17m 09s
 			13:43:18
 	lastUpdate: "2021-10-19T14:00:27Z"
+second run: 33m
+				17:21:54
+      lastUpdate: "2021-10-19T17:54:15Z"
+third run: 33m
+			00:21:49
+      lastUpdate: "2021-10-20T00:54:29Z"
 
 
+1.9.0 multi-repo mode 1000 ns (each ns has one service.serviceusage.cnrm.cloud.google.com, pubsubtopic.pubsub.cnrm.cloud.google.com, pubsubsubscription.pubsub.cnrm.cloud.google.com, iampolicymember.iam.cnrm.cloud.google.com, iamserviceaccount.iam.cnrm.cloud.google.com)
+first run:  80m 37s
+      lastUpdate: "2021-10-19T14:57:06Z"
+      lastUpdate: "2021-10-19T16:17:43Z"
+second run: 58m
+      lastUpdate: "2021-10-19T17:20:23Z"
+      lastUpdate: "2021-10-19T18:28:51Z"
+third run: 42m (one retry)
+      lastUpdate: "2021-10-20T01:32:03Z"
+      lastUpdate: "2021-10-20T02:14:20Z"
+
+1.10.0 mono-repo mode 1000 ns (each ns has one service.serviceusage.cnrm.cloud.google.com, pubsubtopic.pubsub.cnrm.cloud.google.com, pubsubsubscription.pubsub.cnrm.cloud.google.com, iampolicymember.iam.cnrm.cloud.google.com, iamserviceaccount.iam.cnrm.cloud.google.com)
+first run: 56m 2s
+		"2021-10-19T15:14:11Z"
+      lastUpdate: "2021-10-19T16:10:13Z"
+second run: 34m
+			17:16:42
+      lastUpdate: "2021-10-19T17:50:06Z"
+
+
+
+1.10.0 multi-repo mode 1000 ns (each ns has one service.serviceusage.cnrm.cloud.google.com, pubsubtopic.pubsub.cnrm.cloud.google.com, pubsubsubscription.pubsub.cnrm.cloud.google.com, iampolicymember.iam.cnrm.cloud.google.com, iamserviceaccount.iam.cnrm.cloud.google.com)
+first run: 60m
+      lastUpdate: "2021-10-19T15:27:32Z"
+      lastUpdate: "2021-10-19T16:27:07Z"
+second run: 87m
+      lastUpdate: "2021-10-19T17:18:36Z"
+      lastUpdate: "2021-10-19T18:45:22Z"

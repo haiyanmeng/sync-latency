@@ -18,6 +18,8 @@ metadata:
     availability: dev
     target-audience: development
   name: containercluster1
+  annotations:
+    "cnrm.cloud.google.com/project-id": "haiyanmeng-gke-322517"
 spec:
   description: A routes-based cluster confined to one zone configured for development.
   location: us-central1-a

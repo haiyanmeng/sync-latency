@@ -1,0 +1,26 @@
+apiVersion: container.cnrm.cloud.google.com/v1beta1
+kind: ContainerCluster
+metadata:
+  labels:
+    availability: dev
+    target-audience: development
+  name: foo-us-central1-f-41
+  namespace: foo
+  annotations:
+    "cnrm.cloud.google.com/project-id": "haiyanmeng-gke-322517"
+spec:
+  description: A routes-based cluster confined to one zone configured for development.
+  location: us-central1-f
+  initialNodeCount: 1
+  clusterTelemetry:
+    type: SYSTEM_ONLY
+  networkingMode: ROUTES
+  addonsConfig:
+    gcePersistentDiskCsiDriverConfig:
+      enabled: true
+    kalmConfig:
+      enabled: true
+    horizontalPodAutoscaling:
+      disabled: true
+    httpLoadBalancing:
+      disabled: true

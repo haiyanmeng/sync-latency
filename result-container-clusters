@@ -1,0 +1,48 @@
+1.9.0 multi-repo mode 10 ContainerClusters
+first run: 13s
+    lastUpdate: "2021-10-20T00:44:35Z"
+    lastUpdate: "2021-10-20T00:44:48Z"
+
+1.9.0 mono-repo mode 10 ContainerClusters
+first run: 41s
+			00:35:38
+      lastUpdate: "2021-10-20T00:36:19Z"
+
+1.10.0 multi-repo mode 10 ContainerClusters
+first run:
+
+1.9.0 multi-repo mode 100 ContainerClusters
+first run: 25s
+    lastUpdate: "2021-10-20T00:54:01Z"
+    lastUpdate: "2021-10-20T00:54:26Z"
+
+1.9.0 multi-repo mode 450 ContainerClusters
+first run: 1m 30s
+      lastUpdate: "2021-10-20T01:22:15Z"
+      lastUpdate: "2021-10-20T01:23:45Z"
+
+
+
+haiyanmeng@haiyanmeng:sync-latency$ kubectl get containercluster.container.cnrm.cloud.google.com  -n default | grep "UpToDate" | wc -l
+76
+haiyanmeng@haiyanmeng:sync-latency$ kubectl get containercluster.container.cnrm.cloud.google.com  -n default | grep "Updating" | wc -l
+20
+haiyanmeng@haiyanmeng:sync-latency$ kubectl get containercluster.container.cnrm.cloud.google.com  -n default | grep "UpdateFailed" | wc -l
+354
+haiyanmeng@haiyanmeng:sync-latency$ echo 354+96 | bc
+450
+haiyanmeng@haiyanmeng:sync-latency$ kubectl get containercluster.container.cnrm.cloud.google.com  -n default us-central2-a-88 -o yaml
+apiVersion: container.cnrm.cloud.google.com/v1beta1
+kind: ContainerCluster
+status:
+  conditions:
+  - lastTransitionTime: "2021-10-20T01:54:39Z"
+    message: 'Update call failed: error applying desired state: summary: googleapi:
+      Error 403: You cannot create more than 3 clusters in location us-central2-a;
+      to create more than 3, you must request an increase of your Google Compute Engine
+      quota for region us-central2 to 25 CPUs or more., forbidden, detail: '
+    reason: UpdateFailed
+    status: "False"
+    type: Ready
+  observedGeneration: 1
+

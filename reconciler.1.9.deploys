@@ -1,0 +1,901 @@
+I1019 15:25:06.139356       1 setup.go:15] Build Version: 
+I1019 15:25:06.148715       1 main.go:161] Starting reconciler for: root
+I1019 15:25:07.200029       1 request.go:655] Throttling request took 1.012529379s, request: GET:https://10.8.0.1:443/apis/cloudidentity.cnrm.cloud.google.com/v1beta1?timeout=5s
+I1019 15:25:18.279174       1 run.go:238] New git changes (/repo/source/44153d40935d4cf98ffa335035f24aa7a6676873/configs-1000-deploys) detected, reset the cache
+I1019 15:25:18.279205       1 git.go:71] Reading updated configs dir: /repo/source/44153d40935d4cf98ffa335035f24aa7a6676873/configs-1000-deploys
+I1019 15:25:18.356223       1 root.go:92] Parsing files from git dir: /repo/source/44153d40935d4cf98ffa335035f24aa7a6676873/configs-1000-deploys
+I1019 15:28:41.974638       1 kpt_applier.go:220] The applier made new progress: ApplyEvent events (OpType: ServersideApplied): 1001.
+I1019 15:28:41.985194       1 filteredwatcher.go:172] Watch started for apps/v1, Kind=Deployment
+I1019 15:28:41.985337       1 manager.go:158] The remediator made new progress: started 2 new watches, and stopped 0 watches
+I1019 15:28:41.985489       1 filteredwatcher.go:172] Watch started for /v1, Kind=Namespace
+I1019 15:28:42.038312       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version ""
+I1019 15:28:42.041138       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version ""
+I1019 15:28:42.161292       1 state.go:57] Reconciler checkpoint updated to /repo/source/44153d40935d4cf98ffa335035f24aa7a6676873/configs-1000-deploys
+I1019 15:37:01.037417       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "728428" (total events: 21, ignored events: 10)
+I1019 15:37:01.040085       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "728428"
+I1019 15:38:24.035951       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "729240" (total events: 2254, ignored events: 15)
+I1019 15:38:24.039081       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "729240"
+I1019 15:44:12.044669       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "732170" (total events: 9, ignored events: 0)
+I1019 15:44:12.047994       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "732170"
+I1019 15:45:31.040349       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "732817" (total events: 9, ignored events: 0)
+I1019 15:45:31.043464       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "732817"
+I1019 15:50:50.043778       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "735667" (total events: 6, ignored events: 0)
+I1019 15:50:50.046228       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "735667"
+I1019 15:52:38.048313       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "736563" (total events: 10, ignored events: 0)
+I1019 15:52:38.051083       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "736563"
+I1019 15:56:36.046950       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "738586" (total events: 7, ignored events: 0)
+I1019 15:56:36.049847       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "738586"
+I1019 15:58:07.051554       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "739442" (total events: 6, ignored events: 0)
+I1019 15:58:07.055415       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "739442"
+I1019 16:03:06.049897       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "741993" (total events: 7, ignored events: 0)
+I1019 16:03:06.052619       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "741993"
+I1019 16:05:41.055739       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "743304" (total events: 9, ignored events: 0)
+I1019 16:05:41.058418       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "743304"
+I1019 16:11:45.058751       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "746487" (total events: 7, ignored events: 0)
+I1019 16:11:45.061588       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "746487"
+I1019 16:12:10.053458       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "746705" (total events: 10, ignored events: 0)
+I1019 16:12:10.055955       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "746705"
+I1019 16:18:39.061869       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "750136" (total events: 8, ignored events: 0)
+I1019 16:18:39.064378       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "750136"
+I1019 16:18:45.056084       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "750171" (total events: 7, ignored events: 0)
+I1019 16:18:45.058082       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "750171"
+I1019 16:25:09.058642       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "753411" (total events: 8, ignored events: 0)
+I1019 16:25:09.061857       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "753411"
+I1019 16:25:13.279286       1 run.go:53] It is time for a force-resync
+I1019 16:25:13.280961       1 root.go:92] Parsing files from git dir: /repo/source/44153d40935d4cf98ffa335035f24aa7a6676873/configs-1000-deploys
+I1019 16:25:59.066485       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "753831" (total events: 9, ignored events: 0)
+I1019 16:25:59.069357       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "753831"
+I1019 16:28:48.143810       1 kpt_applier.go:220] The applier made new progress: ApplyEvent events (OpType: ServersideApplied): 1001.
+I1019 16:31:36.062393       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "756809" (total events: 8, ignored events: 0)
+I1019 16:31:36.065207       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "756809"
+I1019 16:34:22.070883       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "758179" (total events: 10, ignored events: 0)
+I1019 16:34:22.073861       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "758179"
+I1019 16:37:41.065617       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "759960" (total events: 8, ignored events: 0)
+I1019 16:37:41.068129       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "759960"
+I1019 16:40:22.074062       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "761359" (total events: 7, ignored events: 0)
+I1019 16:40:22.076509       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "761359"
+I1019 16:44:29.068564       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "763421" (total events: 8, ignored events: 0)
+I1019 16:44:29.071126       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "763421"
+I1019 16:48:13.077116       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "765459" (total events: 8, ignored events: 0)
+I1019 16:48:13.079713       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "765459"
+I1019 16:53:47.071345       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "768244" (total events: 10, ignored events: 0)
+I1019 16:53:47.073978       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "768244"
+I1019 16:54:40.079998       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "768690" (total events: 8, ignored events: 0)
+I1019 16:54:40.082571       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "768690"
+I1019 17:00:16.074370       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "771679" (total events: 7, ignored events: 0)
+I1019 17:00:16.077254       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "771679"
+I1019 17:03:25.083003       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "773254" (total events: 10, ignored events: 0)
+I1019 17:03:25.085255       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "773254"
+I1019 17:06:17.077729       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "774698" (total events: 6, ignored events: 0)
+I1019 17:06:17.080342       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "774698"
+I1019 17:12:44.085842       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "778132" (total events: 11, ignored events: 0)
+I1019 17:12:44.088408       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "778132"
+I1019 17:14:46.080627       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "779126" (total events: 10, ignored events: 0)
+I1019 17:14:46.082981       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "779126"
+I1019 17:19:54.083541       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "781871" (total events: 7, ignored events: 0)
+I1019 17:19:54.086614       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "781871"
+I1019 17:20:21.088958       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "782099" (total events: 9, ignored events: 0)
+I1019 17:20:21.092723       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "782099"
+I1019 17:25:13.279324       1 run.go:53] It is time for a force-resync
+I1019 17:25:13.280749       1 root.go:92] Parsing files from git dir: /repo/source/44153d40935d4cf98ffa335035f24aa7a6676873/configs-1000-deploys
+I1019 17:25:41.088912       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "784773" (total events: 6, ignored events: 0)
+I1019 17:25:41.103230       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "784773"
+I1019 17:28:23.092818       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "786299" (total events: 9, ignored events: 0)
+I1019 17:28:23.094872       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "786299"
+I1019 17:28:50.021370       1 kpt_applier.go:220] The applier made new progress: ApplyEvent events (OpType: ServersideApplied): 1001.
+I1019 17:33:46.095384       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "788995" (total events: 7, ignored events: 0)
+I1019 17:33:46.097986       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "788995"
+I1019 17:35:33.091505       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "789894" (total events: 11, ignored events: 0)
+I1019 17:35:33.094115       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "789894"
+I1019 17:40:50.094557       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "792733" (total events: 7, ignored events: 0)
+I1019 17:40:50.097424       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "792733"
+I1019 17:41:44.098588       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "793191" (total events: 9, ignored events: 0)
+I1019 17:41:44.101213       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "793191"
+I1019 17:48:14.101630       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "796590" (total events: 8, ignored events: 0)
+I1019 17:48:14.104550       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "796590"
+I1019 17:49:17.100236       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "797123" (total events: 9, ignored events: 0)
+I1019 17:49:17.109066       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "797123"
+I1019 17:54:05.105544       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "799528" (total events: 7, ignored events: 0)
+I1019 17:54:05.108175       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "799528"
+I1019 17:56:59.105099       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "801034" (total events: 8, ignored events: 0)
+I1019 17:56:59.107545       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "801034"
+I1019 18:01:48.108677       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "803576" (total events: 9, ignored events: 0)
+I1019 18:01:48.111658       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "803576"
+I1019 18:03:22.108036       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "804365" (total events: 8, ignored events: 0)
+I1019 18:03:22.110741       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "804365"
+I1019 18:08:54.111749       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "807308" (total events: 9, ignored events: 0)
+I1019 18:08:54.113849       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "807308"
+I1019 18:11:01.111128       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "808347" (total events: 9, ignored events: 0)
+I1019 18:11:01.114880       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "808347"
+I1019 18:15:10.114288       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "810430" (total events: 7, ignored events: 0)
+I1019 18:15:10.116726       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "810430"
+I1019 18:17:25.115171       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "811680" (total events: 8, ignored events: 0)
+I1019 18:17:25.117486       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "811680"
+I1019 18:24:06.118188       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "815092" (total events: 10, ignored events: 0)
+I1019 18:24:06.120732       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "815092"
+I1019 18:24:13.118931       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "815157" (total events: 8, ignored events: 0)
+I1019 18:24:13.121224       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "815157"
+I1019 18:25:13.278627       1 run.go:53] It is time for a force-resync
+I1019 18:25:13.280238       1 root.go:92] Parsing files from git dir: /repo/source/44153d40935d4cf98ffa335035f24aa7a6676873/configs-1000-deploys
+I1019 18:28:41.995399       1 kpt_applier.go:220] The applier made new progress: ApplyEvent events (OpType: ServersideApplied): 1001.
+I1019 18:30:42.187434       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "818579" (total events: 8, ignored events: 0)
+I1019 18:30:42.229521       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "818579"
+I1019 18:33:30.121102       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "819961" (total events: 10, ignored events: 0)
+I1019 18:33:30.152239       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "819961"
+I1019 18:38:59.152725       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "822920" (total events: 6, ignored events: 0)
+I1019 18:38:59.155236       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "822920"
+I1019 18:40:10.192818       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "823512" (total events: 11, ignored events: 0)
+I1019 18:40:10.195521       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "823512"
+I1019 18:45:32.195714       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "826201" (total events: 7, ignored events: 0)
+I1019 18:45:32.198089       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "826201"
+I1019 18:48:52.155168       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "828049" (total events: 10, ignored events: 0)
+I1019 18:48:52.157817       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "828049"
+I1019 18:51:38.198445       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "829397" (total events: 8, ignored events: 0)
+I1019 18:51:38.201880       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "829397"
+I1019 18:57:16.158474       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "832288" (total events: 9, ignored events: 0)
+I1019 18:57:16.161108       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "832288"
+I1019 18:57:50.201876       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "832619" (total events: 8, ignored events: 0)
+I1019 18:57:50.204174       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "832619"
+I1019 19:03:49.161674       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "835693" (total events: 7, ignored events: 0)
+I1019 19:03:49.164356       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "835693"
+I1019 19:07:29.204677       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "837627" (total events: 11, ignored events: 0)
+I1019 19:07:29.207800       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "837627"
+I1019 19:12:31.164779       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "840227" (total events: 9, ignored events: 0)
+I1019 19:12:31.167194       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "840227"
+I1019 19:16:29.208227       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "842224" (total events: 10, ignored events: 0)
+I1019 19:16:29.210863       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "842224"
+I1019 19:21:10.168402       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "844753" (total events: 9, ignored events: 0)
+I1019 19:21:10.172616       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "844753"
+I1019 19:22:23.211473       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "845347" (total events: 7, ignored events: 0)
+I1019 19:22:23.213929       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "845347"
+I1019 19:25:13.308221       1 run.go:53] It is time for a force-resync
+I1019 19:25:13.343859       1 root.go:92] Parsing files from git dir: /repo/source/44153d40935d4cf98ffa335035f24aa7a6676873/configs-1000-deploys
+I1019 19:28:18.173160       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "848482" (total events: 8, ignored events: 0)
+I1019 19:28:18.176965       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "848482"
+I1019 19:28:48.133672       1 kpt_applier.go:220] The applier made new progress: ApplyEvent events (OpType: ServersideApplied): 1001.
+I1019 19:31:52.214377       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "850278" (total events: 11, ignored events: 0)
+I1019 19:31:52.216988       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "850278"
+I1019 19:36:42.177210       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "852720" (total events: 9, ignored events: 0)
+I1019 19:36:42.180700       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "852720"
+I1019 19:41:45.217439       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "855446" (total events: 11, ignored events: 0)
+I1019 19:41:45.219735       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "855446"
+I1019 19:46:18.181107       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "857706" (total events: 10, ignored events: 0)
+I1019 19:46:18.184103       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "857706"
+I1019 19:47:12.220905       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "858195" (total events: 6, ignored events: 0)
+I1019 19:47:12.223313       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "858195"
+I1019 19:53:45.184402       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "861618" (total events: 8, ignored events: 0)
+I1019 19:53:45.186990       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "861618"
+I1019 19:56:50.223791       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "863174" (total events: 11, ignored events: 0)
+I1019 19:56:50.226305       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "863174"
+I1019 20:03:31.187478       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "866671" (total events: 10, ignored events: 0)
+I1019 20:03:31.190528       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "866671"
+I1019 20:03:34.226630       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "866671" (total events: 7, ignored events: 0)
+I1019 20:03:34.228847       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "866671"
+I1019 20:11:58.190634       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "871107" (total events: 9, ignored events: 0)
+I1019 20:11:58.193220       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "871107"
+I1019 20:12:07.229390       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "871156" (total events: 10, ignored events: 0)
+I1019 20:12:07.231766       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "871156"
+I1019 20:19:47.193608       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "875176" (total events: 8, ignored events: 0)
+I1019 20:19:47.195956       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "875176"
+I1019 20:20:21.234802       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "875459" (total events: 9, ignored events: 0)
+I1019 20:20:21.239824       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "875459"
+E1019 20:24:48.411630       1 state.go:69] Invalidating reconciler checkpoint: 1 error(s) 
+[1] KNV9997: rendering in progress for commit bfbb79958ff06300e5ab9f5598b2782e358c002c  For more information, see https://g.co/cloud/acm-errors#knv9997 
+I1019 20:24:50.278450       1 run.go:73] The last reconciliation failed
+E1019 20:24:50.278712       1 state.go:69] Invalidating reconciler checkpoint: 1 error(s) 
+[1] KNV9997: rendering in progress for commit bfbb79958ff06300e5ab9f5598b2782e358c002c  For more information, see https://g.co/cloud/acm-errors#knv9997 
+I1019 20:24:51.279122       1 run.go:73] The last reconciliation failed
+I1019 20:24:51.279298       1 run.go:238] New git changes (/repo/source/bfbb79958ff06300e5ab9f5598b2782e358c002c/configs-1000-deploys) detected, reset the cache
+I1019 20:24:51.279316       1 git.go:71] Reading updated configs dir: /repo/source/bfbb79958ff06300e5ab9f5598b2782e358c002c/configs-1000-deploys
+I1019 20:24:53.309913       1 root.go:92] Parsing files from git dir: /repo/source/bfbb79958ff06300e5ab9f5598b2782e358c002c/configs-1000-deploys
+I1019 20:27:32.196221       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "881470" (total events: 9, ignored events: 0)
+I1019 20:27:32.198876       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "881470"
+I1019 20:28:24.873568       1 kpt_applier.go:220] The applier made new progress: ApplyEvent events (OpType: ServersideApplied): 1001.
+I1019 20:28:24.963493       1 state.go:57] Reconciler checkpoint updated to /repo/source/bfbb79958ff06300e5ab9f5598b2782e358c002c/configs-1000-deploys
+I1019 20:28:24.963564       1 run.go:53] It is time for a force-resync
+I1019 20:28:24.964929       1 root.go:92] Parsing files from git dir: /repo/source/bfbb79958ff06300e5ab9f5598b2782e358c002c/configs-1000-deploys
+I1019 20:29:07.239843       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "883030" (total events: 2009, ignored events: 0)
+I1019 20:29:07.242140       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "883030"
+I1019 20:31:52.787785       1 kpt_applier.go:220] The applier made new progress: ApplyEvent events (OpType: ServersideApplied): 1001.
+I1019 20:34:33.199224       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "885785" (total events: 7, ignored events: 0)
+I1019 20:34:33.202225       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "885785"
+I1019 20:34:46.241980       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "885852" (total events: 7, ignored events: 0)
+I1019 20:34:46.245375       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "885852"
+I1019 20:44:14.245106       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "890779" (total events: 11, ignored events: 0)
+I1019 20:44:14.248227       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "890779"
+I1019 20:44:28.202952       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "890918" (total events: 10, ignored events: 0)
+I1019 20:44:28.205561       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "890918"
+I1019 20:50:50.248228       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "894261" (total events: 7, ignored events: 0)
+I1019 20:50:50.250749       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "894261"
+I1019 20:53:04.205917       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "895388" (total events: 9, ignored events: 0)
+I1019 20:53:04.208330       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "895388"
+I1019 20:58:29.208321       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "898314" (total events: 6, ignored events: 0)
+I1019 20:58:29.210879       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "898314"
+I1019 20:59:03.251159       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "898602" (total events: 10, ignored events: 0)
+I1019 20:59:03.253557       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "898602"
+I1019 21:00:33.278537       1 run.go:238] New git changes (/repo/source/fd64df3651576701c5f2c5f8c2885948cad47fb4/configs-1000-deploys) detected, reset the cache
+I1019 21:00:33.289506       1 git.go:71] Reading updated configs dir: /repo/source/fd64df3651576701c5f2c5f8c2885948cad47fb4/configs-1000-deploys
+I1019 21:00:33.836768       1 root.go:92] Parsing files from git dir: /repo/source/fd64df3651576701c5f2c5f8c2885948cad47fb4/configs-1000-deploys
+I1019 21:04:05.855090       1 kpt_applier.go:220] The applier made new progress: ApplyEvent events (OpType: ServersideApplied): 1001.
+I1019 21:04:05.886025       1 state.go:57] Reconciler checkpoint updated to /repo/source/fd64df3651576701c5f2c5f8c2885948cad47fb4/configs-1000-deploys
+E1019 21:04:13.303825       1 state.go:69] Invalidating reconciler checkpoint: 1 error(s) 
+[1] KNV9997: rendering in progress for commit 18038f6155d012b2ecb2e04bcebb9b01cd28654e  For more information, see https://g.co/cloud/acm-errors#knv9997 
+I1019 21:04:15.278980       1 run.go:73] The last reconciliation failed
+E1019 21:04:15.279219       1 state.go:69] Invalidating reconciler checkpoint: 1 error(s) 
+[1] KNV9997: rendering in progress for commit 18038f6155d012b2ecb2e04bcebb9b01cd28654e  For more information, see https://g.co/cloud/acm-errors#knv9997 
+I1019 21:04:17.279385       1 run.go:73] The last reconciliation failed
+I1019 21:04:17.279565       1 run.go:238] New git changes (/repo/source/18038f6155d012b2ecb2e04bcebb9b01cd28654e/configs-1000-deploys) detected, reset the cache
+I1019 21:04:17.279583       1 git.go:71] Reading updated configs dir: /repo/source/18038f6155d012b2ecb2e04bcebb9b01cd28654e/configs-1000-deploys
+I1019 21:04:17.360101       1 root.go:92] Parsing files from git dir: /repo/source/18038f6155d012b2ecb2e04bcebb9b01cd28654e/configs-1000-deploys
+I1019 21:06:49.428605       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "907730" (total events: 11, ignored events: 0)
+I1019 21:06:49.431041       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "907730"
+I1019 21:07:09.314980       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "908288" (total events: 3718, ignored events: 0)
+I1019 21:07:09.317905       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "908288"
+I1019 21:07:54.831292       1 kpt_applier.go:220] The applier made new progress: ApplyEvent events (OpType: ServersideApplied): 1001.
+I1019 21:07:54.845598       1 state.go:57] Reconciler checkpoint updated to /repo/source/18038f6155d012b2ecb2e04bcebb9b01cd28654e/configs-1000-deploys
+I1019 21:13:20.317403       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "911907" (total events: 300, ignored events: 0)
+I1019 21:13:20.320095       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "911907"
+I1019 21:13:39.430762       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "912041" (total events: 7, ignored events: 0)
+I1019 21:13:39.433734       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "912041"
+I1019 21:19:35.433668       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "915249" (total events: 6, ignored events: 0)
+I1019 21:19:35.436236       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "915249"
+I1019 21:21:00.320288       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "915934" (total events: 9, ignored events: 0)
+I1019 21:21:00.322776       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "915934"
+I1019 21:25:13.279211       1 run.go:53] It is time for a force-resync
+I1019 21:25:13.280769       1 root.go:92] Parsing files from git dir: /repo/source/18038f6155d012b2ecb2e04bcebb9b01cd28654e/configs-1000-deploys
+I1019 21:25:46.439197       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "918302" (total events: 7, ignored events: 0)
+I1019 21:25:46.441898       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "918302"
+I1019 21:28:50.892110       1 kpt_applier.go:220] The applier made new progress: ApplyEvent events (OpType: ServersideApplied): 1001.
+I1019 21:29:08.323022       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "920186" (total events: 10, ignored events: 0)
+I1019 21:29:08.325582       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "920186"
+I1019 21:31:24.442675       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "921312" (total events: 6, ignored events: 0)
+I1019 21:31:24.445037       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "921312"
+I1019 21:35:32.325784       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "923378" (total events: 8, ignored events: 0)
+I1019 21:35:32.328323       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "923378"
+I1019 21:38:27.445359       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "925021" (total events: 8, ignored events: 0)
+I1019 21:38:27.447900       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "925021"
+I1019 21:42:42.328941       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "927165" (total events: 9, ignored events: 0)
+I1019 21:42:42.331366       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "927165"
+I1019 21:46:34.448467       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "929096" (total events: 10, ignored events: 0)
+I1019 21:46:34.451460       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "929096"
+I1019 21:50:27.331577       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "931238" (total events: 9, ignored events: 0)
+I1019 21:50:27.334330       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "931238"
+I1019 21:54:41.451633       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "933367" (total events: 9, ignored events: 0)
+I1019 21:54:41.454178       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "933367"
+I1019 21:59:05.334645       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "935709" (total events: 10, ignored events: 0)
+I1019 21:59:05.337473       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "935709"
+I1019 22:03:50.454349       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "938102" (total events: 11, ignored events: 0)
+I1019 22:03:50.456959       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "938102"
+I1019 22:04:05.337634       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "938220" (total events: 5, ignored events: 0)
+I1019 22:04:05.339829       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "938220"
+I1019 22:11:04.340337       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "941876" (total events: 8, ignored events: 0)
+I1019 22:11:04.342989       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "941876"
+I1019 22:12:30.457339       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "942620" (total events: 10, ignored events: 0)
+I1019 22:12:30.460008       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "942620"
+I1019 22:18:33.343240       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "945811" (total events: 9, ignored events: 0)
+I1019 22:18:33.346014       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "945811"
+I1019 22:20:31.460429       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "946813" (total events: 8, ignored events: 0)
+I1019 22:20:31.463106       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "946813"
+I1019 22:25:13.279201       1 run.go:53] It is time for a force-resync
+I1019 22:25:13.280500       1 root.go:92] Parsing files from git dir: /repo/source/18038f6155d012b2ecb2e04bcebb9b01cd28654e/configs-1000-deploys
+I1019 22:25:35.352958       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "949325" (total events: 7, ignored events: 0)
+I1019 22:25:35.357911       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "949325"
+I1019 22:25:39.463454       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "949366" (total events: 7, ignored events: 0)
+I1019 22:25:39.466140       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "949366"
+I1019 22:28:47.533334       1 kpt_applier.go:220] The applier made new progress: ApplyEvent events (OpType: ServersideApplied): 1001.
+I1019 22:30:35.356559       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "952027" (total events: 6, ignored events: 0)
+I1019 22:30:35.359170       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "952027"
+I1019 22:30:39.466582       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "952079" (total events: 6, ignored events: 0)
+I1019 22:30:39.469159       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "952079"
+I1019 22:38:35.469485       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "956247" (total events: 9, ignored events: 0)
+I1019 22:38:35.472152       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "956247"
+I1019 22:40:09.359383       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "957009" (total events: 10, ignored events: 0)
+I1019 22:40:09.362178       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "957009"
+I1019 22:46:22.472606       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "960105" (total events: 8, ignored events: 0)
+I1019 22:46:22.475172       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "960105"
+I1019 22:49:13.362496       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "961746" (total events: 11, ignored events: 0)
+I1019 22:49:13.365402       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "961746"
+I1019 22:55:45.475291       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "964982" (total events: 11, ignored events: 0)
+I1019 22:55:45.477880       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "964982"
+I1019 22:56:30.365617       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "965350" (total events: 9, ignored events: 0)
+I1019 22:56:30.368054       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "965350"
+I1019 23:01:37.368433       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "968097" (total events: 7, ignored events: 0)
+I1019 23:01:37.371220       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "968097"
+I1019 23:03:45.478204       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "969196" (total events: 9, ignored events: 0)
+I1019 23:03:45.480810       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "969196"
+I1019 23:09:59.481226       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "972480" (total events: 7, ignored events: 0)
+I1019 23:09:59.483516       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "972480"
+I1019 23:10:50.371348       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "972894" (total events: 11, ignored events: 0)
+I1019 23:10:50.373502       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "972894"
+I1019 23:17:04.373871       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "976081" (total events: 8, ignored events: 0)
+I1019 23:17:04.376646       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "976081"
+I1019 23:18:11.483886       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "976739" (total events: 9, ignored events: 0)
+I1019 23:18:11.486492       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "976739"
+I1019 23:22:56.376999       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "979127" (total events: 7, ignored events: 0)
+I1019 23:22:56.379427       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "979127"
+I1019 23:25:13.278634       1 run.go:53] It is time for a force-resync
+I1019 23:25:13.280115       1 root.go:92] Parsing files from git dir: /repo/source/18038f6155d012b2ecb2e04bcebb9b01cd28654e/configs-1000-deploys
+I1019 23:26:08.487262       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "980760" (total events: 8, ignored events: 0)
+I1019 23:26:08.489783       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "980760"
+I1019 23:28:47.050176       1 kpt_applier.go:220] The applier made new progress: ApplyEvent events (OpType: ServersideApplied): 1001.
+I1019 23:32:00.379848       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "983848" (total events: 10, ignored events: 0)
+I1019 23:32:00.381954       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "983848"
+I1019 23:34:36.490378       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "985154" (total events: 10, ignored events: 0)
+I1019 23:34:36.493011       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "985154"
+I1019 23:37:09.382421       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "986509" (total events: 7, ignored events: 0)
+I1019 23:37:09.385131       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "986509"
+I1019 23:42:17.493553       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "989201" (total events: 9, ignored events: 0)
+I1019 23:42:17.496043       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "989201"
+I1019 23:47:01.385465       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "991600" (total events: 10, ignored events: 0)
+I1019 23:47:01.388140       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "991600"
+I1019 23:49:23.279186       1 run.go:238] New git changes (/repo/source/46f2b2de8d5796f80903d127a83b2093a420398e/configs-1000-deploys) detected, reset the cache
+I1019 23:49:23.279286       1 git.go:71] Reading updated configs dir: /repo/source/46f2b2de8d5796f80903d127a83b2093a420398e/configs-1000-deploys
+I1019 23:49:23.427919       1 root.go:92] Parsing files from git dir: /repo/source/46f2b2de8d5796f80903d127a83b2093a420398e/configs-1000-deploys
+I1019 23:51:02.529010       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "995161" (total events: 10, ignored events: 0)
+I1019 23:51:02.562900       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "995161"
+I1019 23:52:56.326322       1 kpt_applier.go:220] The applier made new progress: ApplyEvent events (OpType: ServersideApplied): 1001.
+I1019 23:52:56.343194       1 state.go:57] Reconciler checkpoint updated to /repo/source/46f2b2de8d5796f80903d127a83b2093a420398e/configs-1000-deploys
+I1019 23:53:29.388557       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "997976" (total events: 2007, ignored events: 0)
+I1019 23:53:29.391571       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "997976"
+I1019 23:59:14.391890       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "1001052" (total events: 6, ignored events: 0)
+I1019 23:59:14.394402       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "1001052"
+I1019 23:59:47.533011       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "1001295" (total events: 10, ignored events: 0)
+I1019 23:59:47.535772       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "1001295"
+I1020 00:02:03.278541       1 run.go:238] New git changes (/repo/source/9e4d42f84dfab6443f08fd77e6f990c3cb94115a/configs-1000-deploys) detected, reset the cache
+I1020 00:02:03.278593       1 git.go:71] Reading updated configs dir: /repo/source/9e4d42f84dfab6443f08fd77e6f990c3cb94115a/configs-1000-deploys
+I1020 00:02:03.886089       1 root.go:92] Parsing files from git dir: /repo/source/9e4d42f84dfab6443f08fd77e6f990c3cb94115a/configs-1000-deploys
+I1020 00:05:38.497737       1 kpt_applier.go:220] The applier made new progress: ApplyEvent events (OpType: ServersideApplied): 1001.
+I1020 00:05:38.630440       1 state.go:57] Reconciler checkpoint updated to /repo/source/9e4d42f84dfab6443f08fd77e6f990c3cb94115a/configs-1000-deploys
+I1020 00:06:00.394527       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "1007427" (total events: 2007, ignored events: 0)
+I1020 00:06:00.396770       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "1007427"
+I1020 00:08:56.539907       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "1009071" (total events: 11, ignored events: 0)
+I1020 00:08:56.542569       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "1009071"
+I1020 00:12:09.397164       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "1010664" (total events: 7, ignored events: 0)
+I1020 00:12:09.399533       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "1010664"
+I1020 00:17:04.543107       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "1013191" (total events: 9, ignored events: 0)
+I1020 00:17:04.546243       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "1013191"
+I1020 00:19:38.400074       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "1014595" (total events: 8, ignored events: 0)
+I1020 00:19:38.403405       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "1014595"
+I1020 00:22:30.546234       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "1016023" (total events: 6, ignored events: 0)
+I1020 00:22:30.549097       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "1016023"
+I1020 00:24:45.404373       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "1017148" (total events: 6, ignored events: 0)
+I1020 00:24:45.407663       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "1017148"
+I1020 00:25:13.279162       1 run.go:53] It is time for a force-resync
+I1020 00:25:13.280746       1 root.go:92] Parsing files from git dir: /repo/source/9e4d42f84dfab6443f08fd77e6f990c3cb94115a/configs-1000-deploys
+I1020 00:28:54.449966       1 kpt_applier.go:220] The applier made new progress: ApplyEvent events (OpType: ServersideApplied): 1001.
+I1020 00:29:27.549600       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "1019684" (total events: 8, ignored events: 0)
+I1020 00:29:27.552184       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "1019684"
+I1020 00:32:41.407436       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "1021296" (total events: 8, ignored events: 0)
+I1020 00:32:41.410193       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "1021296"
+E1020 00:35:08.297257       1 state.go:69] Invalidating reconciler checkpoint: 1 error(s) 
+[1] KNV9997: rendering in progress for commit 41a2f85c63170d01c9183e1aac00f8669cd34bdd  For more information, see https://g.co/cloud/acm-errors#knv9997 
+I1020 00:35:10.279204       1 run.go:73] The last reconciliation failed
+E1020 00:35:10.279424       1 state.go:69] Invalidating reconciler checkpoint: 1 error(s) 
+[1] KNV9997: rendering in progress for commit 41a2f85c63170d01c9183e1aac00f8669cd34bdd  For more information, see https://g.co/cloud/acm-errors#knv9997 
+I1020 00:35:12.278947       1 run.go:73] The last reconciliation failed
+I1020 00:35:12.279123       1 run.go:238] New git changes (/repo/source/41a2f85c63170d01c9183e1aac00f8669cd34bdd/configs-1000-deploys) detected, reset the cache
+I1020 00:35:12.279135       1 git.go:71] Reading updated configs dir: /repo/source/41a2f85c63170d01c9183e1aac00f8669cd34bdd/configs-1000-deploys
+I1020 00:35:12.385210       1 root.go:92] Parsing files from git dir: /repo/source/41a2f85c63170d01c9183e1aac00f8669cd34bdd/configs-1000-deploys
+I1020 00:38:44.595536       1 kpt_applier.go:220] The applier made new progress: ApplyEvent events (OpType: ServersideApplied): 1001.
+I1020 00:38:44.613615       1 state.go:57] Reconciler checkpoint updated to /repo/source/41a2f85c63170d01c9183e1aac00f8669cd34bdd/configs-1000-deploys
+I1020 00:39:05.552656       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "1027682" (total events: 11, ignored events: 0)
+I1020 00:39:05.555450       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "1027682"
+I1020 00:40:32.410280       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "1028429" (total events: 2008, ignored events: 0)
+I1020 00:40:32.413001       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "1028429"
+I1020 00:47:01.555881       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "1031711" (total events: 9, ignored events: 0)
+I1020 00:47:01.558567       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "1031711"
+I1020 00:47:35.413502       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "1032019" (total events: 7, ignored events: 0)
+I1020 00:47:35.415998       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "1032019"
+E1020 00:53:38.299995       1 state.go:69] Invalidating reconciler checkpoint: 1 error(s) 
+[1] KNV9997: rendering in progress for commit cf84fc4b4a8b0aea2a724d0f07d913859323ca18  For more information, see https://g.co/cloud/acm-errors#knv9997 
+I1020 00:53:40.279122       1 run.go:73] The last reconciliation failed
+E1020 00:53:40.279636       1 state.go:69] Invalidating reconciler checkpoint: 1 error(s) 
+[1] KNV9997: rendering in progress for commit cf84fc4b4a8b0aea2a724d0f07d913859323ca18  For more information, see https://g.co/cloud/acm-errors#knv9997 
+I1020 00:53:42.279378       1 run.go:73] The last reconciliation failed
+I1020 00:53:42.279558       1 run.go:238] New git changes (/repo/source/cf84fc4b4a8b0aea2a724d0f07d913859323ca18/configs-1000-deploys) detected, reset the cache
+I1020 00:53:42.279571       1 git.go:71] Reading updated configs dir: /repo/source/cf84fc4b4a8b0aea2a724d0f07d913859323ca18/configs-1000-deploys
+I1020 00:53:42.361545       1 root.go:92] Parsing files from git dir: /repo/source/cf84fc4b4a8b0aea2a724d0f07d913859323ca18/configs-1000-deploys
+I1020 00:54:46.559010       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "1036587" (total events: 9, ignored events: 0)
+I1020 00:54:46.561127       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "1036587"
+I1020 00:55:02.416186       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "1037079" (total events: 792, ignored events: 0)
+I1020 00:55:02.418263       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "1037079"
+I1020 00:57:11.209748       1 kpt_applier.go:220] The applier made new progress: ApplyEvent events (OpType: ServersideApplied): 1001.
+I1020 00:57:11.229524       1 state.go:57] Reconciler checkpoint updated to /repo/source/cf84fc4b4a8b0aea2a724d0f07d913859323ca18/configs-1000-deploys
+I1020 01:04:01.418684       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "1043513" (total events: 1225, ignored events: 0)
+I1020 01:04:01.421257       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "1043513"
+I1020 01:04:33.561860       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "1043810" (total events: 10, ignored events: 0)
+I1020 01:04:33.564812       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "1043810"
+I1020 01:09:33.421649       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "1046494" (total events: 6, ignored events: 0)
+I1020 01:09:33.424148       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "1046494"
+E1020 01:11:38.300292       1 state.go:69] Invalidating reconciler checkpoint: 1 error(s) 
+[1] KNV9997: rendering in progress for commit b81e86a42b9ede959930fe42c313537a257d7b26  For more information, see https://g.co/cloud/acm-errors#knv9997 
+I1020 01:11:40.278428       1 run.go:73] The last reconciliation failed
+E1020 01:11:40.278759       1 state.go:69] Invalidating reconciler checkpoint: 1 error(s) 
+[1] KNV9997: rendering in progress for commit b81e86a42b9ede959930fe42c313537a257d7b26  For more information, see https://g.co/cloud/acm-errors#knv9997 
+I1020 01:11:41.279363       1 run.go:73] The last reconciliation failed
+I1020 01:11:41.279544       1 run.go:238] New git changes (/repo/source/b81e86a42b9ede959930fe42c313537a257d7b26/configs-1000-deploys) detected, reset the cache
+I1020 01:11:41.279552       1 git.go:71] Reading updated configs dir: /repo/source/b81e86a42b9ede959930fe42c313537a257d7b26/configs-1000-deploys
+I1020 01:11:41.356193       1 root.go:92] Parsing files from git dir: /repo/source/b81e86a42b9ede959930fe42c313537a257d7b26/configs-1000-deploys
+I1020 01:13:27.564938       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "1050001" (total events: 10, ignored events: 0)
+I1020 01:13:27.566725       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "1050001"
+I1020 01:15:15.562549       1 kpt_applier.go:220] The applier made new progress: ApplyEvent events (OpType: ServersideApplied): 1001.
+I1020 01:15:15.576975       1 state.go:57] Reconciler checkpoint updated to /repo/source/b81e86a42b9ede959930fe42c313537a257d7b26/configs-1000-deploys
+I1020 01:16:30.424578       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "1052961" (total events: 2009, ignored events: 2)
+I1020 01:16:30.426962       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "1052961"
+I1020 01:19:06.567207       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "1054469" (total events: 7, ignored events: 0)
+I1020 01:19:06.569614       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "1054469"
+E1020 01:21:43.298551       1 state.go:69] Invalidating reconciler checkpoint: 1 error(s) 
+[1] KNV9997: rendering in progress for commit c7f2706baa32b930f06aff7b91466e655b24d003  For more information, see https://g.co/cloud/acm-errors#knv9997 
+I1020 01:21:45.278454       1 run.go:73] The last reconciliation failed
+E1020 01:21:45.278723       1 state.go:69] Invalidating reconciler checkpoint: 1 error(s) 
+[1] KNV9997: rendering in progress for commit c7f2706baa32b930f06aff7b91466e655b24d003  For more information, see https://g.co/cloud/acm-errors#knv9997 
+I1020 01:21:46.279051       1 run.go:73] The last reconciliation failed
+I1020 01:21:46.279243       1 run.go:238] New git changes (/repo/source/c7f2706baa32b930f06aff7b91466e655b24d003/configs-1000-deploys) detected, reset the cache
+I1020 01:21:46.279256       1 git.go:71] Reading updated configs dir: /repo/source/c7f2706baa32b930f06aff7b91466e655b24d003/configs-1000-deploys
+I1020 01:21:46.401008       1 root.go:92] Parsing files from git dir: /repo/source/c7f2706baa32b930f06aff7b91466e655b24d003/configs-1000-deploys
+I1020 01:22:27.453888       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "1056765" (total events: 402, ignored events: 0)
+I1020 01:22:27.459068       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "1056765"
+I1020 01:25:17.657744       1 kpt_applier.go:220] The applier made new progress: ApplyEvent events (OpType: ServersideApplied): 1001.
+I1020 01:25:17.683890       1 state.go:57] Reconciler checkpoint updated to /repo/source/c7f2706baa32b930f06aff7b91466e655b24d003/configs-1000-deploys
+I1020 01:25:17.683923       1 run.go:53] It is time for a force-resync
+I1020 01:25:17.685191       1 root.go:92] Parsing files from git dir: /repo/source/c7f2706baa32b930f06aff7b91466e655b24d003/configs-1000-deploys
+I1020 01:27:47.631418       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "1061934" (total events: 10, ignored events: 0)
+I1020 01:27:47.639381       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "1061934"
+I1020 01:28:41.188735       1 kpt_applier.go:220] The applier made new progress: ApplyEvent events (OpType: ServersideApplied): 1001.
+I1020 01:30:43.456245       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "1063476" (total events: 1614, ignored events: 0)
+I1020 01:30:43.459136       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "1063476"
+I1020 01:33:16.634181       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "1064729" (total events: 6, ignored events: 0)
+I1020 01:33:16.636930       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "1064729"
+I1020 01:38:19.459390       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "1067407" (total events: 8, ignored events: 0)
+I1020 01:38:19.462072       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "1067407"
+I1020 01:38:45.637189       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "1067652" (total events: 7, ignored events: 0)
+I1020 01:38:45.639736       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "1067652"
+I1020 01:44:04.462576       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "1070298" (total events: 6, ignored events: 0)
+I1020 01:44:04.464946       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "1070298"
+I1020 01:44:07.640321       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "1070336" (total events: 6, ignored events: 0)
+I1020 01:44:07.643018       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "1070336"
+I1020 01:49:54.643194       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "1073446" (total events: 6, ignored events: 0)
+I1020 01:49:54.645832       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "1073446"
+I1020 01:50:38.465320       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "1073802" (total events: 7, ignored events: 0)
+I1020 01:50:38.467885       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "1073802"
+I1020 01:55:35.646252       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "1076265" (total events: 6, ignored events: 0)
+I1020 01:55:35.648929       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "1076265"
+I1020 01:57:14.468196       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "1077139" (total events: 7, ignored events: 0)
+I1020 01:57:14.470893       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "1077139"
+I1020 02:03:16.649374       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "1080299" (total events: 8, ignored events: 0)
+I1020 02:03:16.652368       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "1080299"
+I1020 02:05:05.471104       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "1081194" (total events: 8, ignored events: 0)
+I1020 02:05:05.473833       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "1081194"
+I1020 02:10:49.652619       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "1084281" (total events: 9, ignored events: 0)
+I1020 02:10:49.655436       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "1084281"
+I1020 02:13:30.474084       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "1085612" (total events: 9, ignored events: 0)
+I1020 02:13:30.476544       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "1085612"
+I1020 02:19:04.656181       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "1088570" (total events: 10, ignored events: 0)
+I1020 02:19:04.658585       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "1088570"
+I1020 02:21:07.476598       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "1089597" (total events: 8, ignored events: 0)
+I1020 02:21:07.479217       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "1089597"
+I1020 02:25:13.279319       1 run.go:53] It is time for a force-resync
+I1020 02:25:13.280812       1 root.go:92] Parsing files from git dir: /repo/source/c7f2706baa32b930f06aff7b91466e655b24d003/configs-1000-deploys
+I1020 02:27:20.659118       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "1092784" (total events: 9, ignored events: 0)
+I1020 02:27:20.662380       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "1092784"
+I1020 02:28:40.891048       1 kpt_applier.go:220] The applier made new progress: ApplyEvent events (OpType: ServersideApplied): 1001.
+I1020 02:29:41.481075       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "1094066" (total events: 9, ignored events: 0)
+I1020 02:29:41.483319       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "1094066"
+I1020 02:34:44.483653       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "1096574" (total events: 5, ignored events: 0)
+I1020 02:34:44.486278       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "1096574"
+I1020 02:35:30.662154       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "1096985" (total events: 10, ignored events: 0)
+I1020 02:35:30.664818       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "1096985"
+I1020 02:39:53.486530       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "1099375" (total events: 6, ignored events: 0)
+I1020 02:39:53.489313       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "1099375"
+I1020 02:40:59.664932       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "1099906" (total events: 6, ignored events: 0)
+I1020 02:40:59.667601       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "1099906"
+I1020 02:46:43.489668       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "1102815" (total events: 7, ignored events: 0)
+I1020 02:46:43.492105       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "1102815"
+I1020 02:50:06.667723       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "1104689" (total events: 10, ignored events: 0)
+I1020 02:50:06.669940       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "1104689"
+I1020 02:53:27.492647       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "1106299" (total events: 7, ignored events: 0)
+I1020 02:53:27.495269       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "1106299"
+I1020 02:56:49.670268       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "1108043" (total events: 8, ignored events: 0)
+I1020 02:56:49.672728       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "1108043"
+I1020 02:59:42.495663       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "1109639" (total events: 7, ignored events: 0)
+I1020 02:59:42.498279       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "1109639"
+I1020 03:02:53.673203       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "1111234" (total events: 6, ignored events: 0)
+I1020 03:02:53.675582       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "1111234"
+I1020 03:07:28.498595       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "1113611" (total events: 9, ignored events: 0)
+I1020 03:07:28.500921       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "1113611"
+I1020 03:09:53.675886       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "1114934" (total events: 7, ignored events: 0)
+I1020 03:09:53.678618       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "1114934"
+I1020 03:14:59.501417       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "1117449" (total events: 8, ignored events: 0)
+I1020 03:14:59.503870       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "1117449"
+I1020 03:15:43.679021       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "1117856" (total events: 6, ignored events: 0)
+I1020 03:15:43.681647       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "1117856"
+I1020 03:21:38.504148       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "1120987" (total events: 7, ignored events: 0)
+I1020 03:21:38.506642       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "1120987"
+I1020 03:24:51.682356       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "1122574" (total events: 10, ignored events: 0)
+I1020 03:24:51.684951       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "1122574"
+I1020 03:25:13.279196       1 run.go:53] It is time for a force-resync
+I1020 03:25:13.280613       1 root.go:92] Parsing files from git dir: /repo/source/c7f2706baa32b930f06aff7b91466e655b24d003/configs-1000-deploys
+I1020 03:28:41.747649       1 kpt_applier.go:220] The applier made new progress: ApplyEvent events (OpType: ServersideApplied): 1001.
+I1020 03:30:08.507076       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "1125402" (total events: 9, ignored events: 0)
+I1020 03:30:08.509778       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "1125402"
+I1020 03:30:08.685282       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "1125430" (total events: 7, ignored events: 0)
+I1020 03:30:08.687590       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "1125430"
+I1020 03:37:11.688142       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "1129005" (total events: 8, ignored events: 0)
+I1020 03:37:11.690876       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "1129005"
+I1020 03:40:07.510035       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "1130615" (total events: 10, ignored events: 0)
+I1020 03:40:07.512773       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "1130615"
+I1020 03:42:44.691214       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "1131901" (total events: 6, ignored events: 0)
+I1020 03:42:44.694110       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "1131901"
+I1020 03:48:11.694650       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "1134790" (total events: 6, ignored events: 0)
+I1020 03:48:11.697095       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "1134790"
+I1020 03:49:01.513873       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "1135222" (total events: 9, ignored events: 0)
+I1020 03:49:01.517005       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "1135222"
+I1020 03:53:27.697442       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "1137460" (total events: 6, ignored events: 0)
+I1020 03:53:27.699821       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "1137460"
+I1020 03:57:35.516780       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "1139614" (total events: 9, ignored events: 0)
+I1020 03:57:35.519271       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "1139614"
+I1020 03:59:42.700373       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "1140764" (total events: 7, ignored events: 0)
+I1020 03:59:42.702972       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "1140764"
+I1020 04:06:49.519813       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "1144335" (total events: 11, ignored events: 0)
+I1020 04:06:49.523078       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "1144335"
+I1020 04:09:34.703541       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "1145899" (total events: 10, ignored events: 0)
+I1020 04:09:34.706205       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "1145899"
+I1020 04:12:52.523290       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "1147547" (total events: 6, ignored events: 0)
+I1020 04:12:52.525941       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "1147547"
+I1020 04:14:40.706562       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "1148403" (total events: 7, ignored events: 0)
+I1020 04:14:40.709142       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "1148403"
+I1020 04:20:07.709275       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "1151339" (total events: 6, ignored events: 0)
+I1020 04:20:07.711588       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "1151339"
+I1020 04:22:35.526107       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "1152577" (total events: 10, ignored events: 0)
+I1020 04:22:35.528184       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "1152577"
+I1020 04:25:13.279214       1 run.go:53] It is time for a force-resync
+I1020 04:25:13.281401       1 root.go:92] Parsing files from git dir: /repo/source/c7f2706baa32b930f06aff7b91466e655b24d003/configs-1000-deploys
+I1020 04:28:20.748758       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "1155631" (total events: 9, ignored events: 0)
+I1020 04:28:20.759065       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "1155631"
+I1020 04:28:40.256132       1 kpt_applier.go:220] The applier made new progress: ApplyEvent events (OpType: ServersideApplied): 1001.
+I1020 04:29:08.529756       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "1156049" (total events: 7, ignored events: 0)
+I1020 04:29:08.532441       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "1156049"
+I1020 04:35:34.751463       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "1159257" (total events: 9, ignored events: 0)
+I1020 04:35:34.753984       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "1159257"
+I1020 04:36:34.532945       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "1159756" (total events: 9, ignored events: 0)
+I1020 04:36:34.535020       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "1159756"
+I1020 04:40:58.754462       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "1162183" (total events: 7, ignored events: 0)
+I1020 04:40:58.757147       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "1162183"
+I1020 04:44:55.535523       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "1164114" (total events: 9, ignored events: 0)
+I1020 04:44:55.538219       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "1164114"
+I1020 04:47:58.758256       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "1165768" (total events: 8, ignored events: 0)
+I1020 04:47:58.761297       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "1165768"
+I1020 04:54:25.538299       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "1169045" (total events: 10, ignored events: 0)
+I1020 04:54:25.540510       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "1169045"
+I1020 04:57:42.761595       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "1170779" (total events: 11, ignored events: 0)
+I1020 04:57:42.764500       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "1170779"
+I1020 05:01:00.540967       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "1172548" (total events: 7, ignored events: 0)
+I1020 05:01:00.543524       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "1172548"
+I1020 05:05:11.764724       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "1174623" (total events: 9, ignored events: 0)
+I1020 05:05:11.767636       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "1174623"
+I1020 05:08:00.543946       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "1176181" (total events: 7, ignored events: 0)
+I1020 05:08:00.546621       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "1176181"
+I1020 05:10:16.767832       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "1177327" (total events: 6, ignored events: 0)
+I1020 05:10:16.770437       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "1177327"
+I1020 05:16:13.547253       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "1180348" (total events: 10, ignored events: 0)
+I1020 05:16:13.549724       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "1180348"
+I1020 05:17:24.771491       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "1180976" (total events: 8, ignored events: 0)
+I1020 05:17:24.774105       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "1180976"
+I1020 05:22:54.550210       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "1183859" (total events: 7, ignored events: 0)
+I1020 05:22:54.552829       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "1183859"
+I1020 05:25:13.279335       1 run.go:53] It is time for a force-resync
+I1020 05:25:13.281179       1 root.go:92] Parsing files from git dir: /repo/source/c7f2706baa32b930f06aff7b91466e655b24d003/configs-1000-deploys
+I1020 05:26:50.774257       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "1185844" (total events: 11, ignored events: 0)
+I1020 05:26:50.776224       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "1185844"
+I1020 05:28:38.555138       1 kpt_applier.go:220] The applier made new progress: ApplyEvent events (OpType: ServersideApplied): 1001.
+I1020 05:29:04.553417       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "1187140" (total events: 8, ignored events: 0)
+I1020 05:29:04.556032       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "1187140"
+I1020 05:34:14.556330       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "1189687" (total events: 6, ignored events: 0)
+I1020 05:34:14.558848       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "1189687"
+I1020 05:35:39.776523       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "1190430" (total events: 10, ignored events: 0)
+I1020 05:35:39.779469       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "1190430"
+I1020 05:42:52.559266       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "1194220" (total events: 10, ignored events: 0)
+I1020 05:42:52.561907       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "1194220"
+I1020 05:43:46.779829       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "1194633" (total events: 9, ignored events: 0)
+I1020 05:43:46.782417       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "1194633"
+I1020 05:49:07.782545       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "1197521" (total events: 7, ignored events: 0)
+I1020 05:49:07.785761       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "1197521"
+I1020 05:50:25.562004       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "1198147" (total events: 8, ignored events: 0)
+I1020 05:50:25.564046       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "1198147"
+I1020 05:57:44.785640       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "1201929" (total events: 10, ignored events: 0)
+I1020 05:57:44.788298       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "1201929"
+I1020 05:59:48.564602       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "1203037" (total events: 10, ignored events: 0)
+I1020 05:59:48.567727       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "1203037"
+I1020 06:07:37.788631       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "1207043" (total events: 11, ignored events: 0)
+I1020 06:07:37.791226       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "1207043"
+I1020 06:09:02.567503       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "1207833" (total events: 10, ignored events: 0)
+I1020 06:09:02.569886       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "1207833"
+I1020 06:15:16.570903       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "1210977" (total events: 7, ignored events: 0)
+I1020 06:15:16.573334       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "1210977"
+I1020 06:16:46.791395       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "1211760" (total events: 10, ignored events: 0)
+I1020 06:16:46.793646       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "1211760"
+I1020 06:22:08.794416       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "1214617" (total events: 7, ignored events: 0)
+I1020 06:22:08.796734       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "1214617"
+I1020 06:24:50.573572       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "1215907" (total events: 10, ignored events: 0)
+I1020 06:24:50.576112       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "1215907"
+I1020 06:25:13.279255       1 run.go:53] It is time for a force-resync
+I1020 06:25:13.280448       1 root.go:92] Parsing files from git dir: /repo/source/c7f2706baa32b930f06aff7b91466e655b24d003/configs-1000-deploys
+I1020 06:28:40.869624       1 kpt_applier.go:220] The applier made new progress: ApplyEvent events (OpType: ServersideApplied): 1001.
+I1020 06:31:18.797374       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "1219361" (total events: 11, ignored events: 0)
+I1020 06:31:18.800496       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "1219361"
+I1020 06:32:58.576710       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "1220170" (total events: 9, ignored events: 0)
+I1020 06:32:58.579091       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "1220170"
+I1020 06:40:03.800721       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "1223908" (total events: 10, ignored events: 0)
+I1020 06:40:03.803945       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "1223908"
+I1020 06:41:07.579343       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "1224475" (total events: 9, ignored events: 0)
+I1020 06:41:07.581803       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "1224475"
+I1020 06:45:32.803810       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "1226643" (total events: 7, ignored events: 0)
+I1020 06:45:32.806814       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "1226643"
+I1020 06:46:11.582165       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "1226975" (total events: 6, ignored events: 0)
+I1020 06:46:11.584513       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "1226975"
+I1020 06:51:31.584985       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "1229872" (total events: 7, ignored events: 0)
+I1020 06:51:31.588273       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "1229872"
+I1020 06:53:27.806747       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "1230830" (total events: 9, ignored events: 0)
+I1020 06:53:27.808891       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "1230830"
+I1020 07:01:30.588667       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "1235040" (total events: 10, ignored events: 0)
+I1020 07:01:30.590910       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "1235040"
+I1020 07:01:41.809381       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "1235108" (total events: 9, ignored events: 0)
+I1020 07:01:41.811932       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "1235108"
+I1020 07:10:51.812150       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "1239886" (total events: 11, ignored events: 0)
+I1020 07:10:51.814584       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "1239886"
+I1020 07:11:25.591362       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "1240191" (total events: 10, ignored events: 0)
+I1020 07:11:25.593913       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "1240191"
+I1020 07:17:30.814717       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "1243336" (total events: 8, ignored events: 0)
+I1020 07:17:30.817066       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "1243336"
+I1020 07:19:43.594220       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "1244524" (total events: 10, ignored events: 0)
+I1020 07:19:43.596997       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "1244524"
+I1020 07:25:13.279288       1 run.go:53] It is time for a force-resync
+I1020 07:25:13.280829       1 root.go:92] Parsing files from git dir: /repo/source/c7f2706baa32b930f06aff7b91466e655b24d003/configs-1000-deploys
+I1020 07:26:16.628531       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "1247825" (total events: 7, ignored events: 0)
+I1020 07:26:16.638652       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "1247825"
+I1020 07:27:16.817289       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "1248358" (total events: 11, ignored events: 0)
+I1020 07:27:16.819622       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "1248358"
+I1020 07:28:38.677622       1 kpt_applier.go:220] The applier made new progress: ApplyEvent events (OpType: ServersideApplied): 1001.
+I1020 07:32:11.631402       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "1250938" (total events: 7, ignored events: 0)
+I1020 07:32:11.633732       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "1250938"
+I1020 07:37:06.819836       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "1253480" (total events: 11, ignored events: 0)
+I1020 07:37:06.825555       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "1253480"
+I1020 07:41:20.634476       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "1255729" (total events: 11, ignored events: 0)
+I1020 07:41:20.637282       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "1255729"
+I1020 07:43:38.825911       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "1256856" (total events: 8, ignored events: 0)
+I1020 07:43:38.828301       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "1256856"
+I1020 07:50:21.637462       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "1260376" (total events: 9, ignored events: 0)
+I1020 07:50:21.640015       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "1260376"
+I1020 07:50:43.828904       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "1260605" (total events: 9, ignored events: 0)
+I1020 07:50:43.832247       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "1260605"
+I1020 07:57:45.832540       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "1264233" (total events: 7, ignored events: 0)
+I1020 07:57:45.834975       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "1264233"
+I1020 07:58:56.640274       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "1264900" (total events: 10, ignored events: 0)
+I1020 07:58:56.642619       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "1264900"
+I1020 08:07:13.835290       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "1269105" (total events: 11, ignored events: 0)
+I1020 08:07:13.837789       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "1269105"
+I1020 08:08:43.642916       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "1269983" (total events: 10, ignored events: 0)
+I1020 08:08:43.645421       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "1269983"
+I1020 08:12:18.838207       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "1271737" (total events: 6, ignored events: 0)
+I1020 08:12:18.840544       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "1271737"
+I1020 08:17:40.647573       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "1274562" (total events: 10, ignored events: 0)
+I1020 08:17:40.650098       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "1274562"
+I1020 08:19:25.840852       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "1275518" (total events: 9, ignored events: 0)
+I1020 08:19:25.843999       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "1275518"
+I1020 08:22:44.650214       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "1277160" (total events: 7, ignored events: 0)
+I1020 08:22:44.652765       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "1277160"
+I1020 08:25:13.279377       1 run.go:53] It is time for a force-resync
+I1020 08:25:13.280825       1 root.go:92] Parsing files from git dir: /repo/source/c7f2706baa32b930f06aff7b91466e655b24d003/configs-1000-deploys
+I1020 08:26:34.844868       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "1279079" (total events: 9, ignored events: 0)
+I1020 08:26:34.848945       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "1279079"
+I1020 08:28:49.011419       1 kpt_applier.go:220] The applier made new progress: ApplyEvent events (OpType: ServersideApplied): 1001.
+I1020 08:32:15.653221       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "1282092" (total events: 10, ignored events: 0)
+I1020 08:32:15.656017       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "1282092"
+I1020 08:35:50.850980       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "1283908" (total events: 10, ignored events: 0)
+I1020 08:35:50.853757       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "1283908"
+I1020 08:37:27.656402       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "1284777" (total events: 6, ignored events: 0)
+I1020 08:37:27.659224       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "1284777"
+I1020 08:44:07.854256       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "1288209" (total events: 9, ignored events: 0)
+I1020 08:44:07.856749       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "1288209"
+I1020 08:44:11.659439       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "1288244" (total events: 7, ignored events: 0)
+I1020 08:44:11.661283       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "1288244"
+I1020 08:51:38.857309       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "1292181" (total events: 9, ignored events: 0)
+I1020 08:51:38.859668       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "1292181"
+I1020 08:53:22.661961       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "1293051" (total events: 11, ignored events: 0)
+I1020 08:53:22.664608       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "1293051"
+I1020 08:56:44.862297       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "1294764" (total events: 7, ignored events: 0)
+I1020 08:56:44.864589       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "1294764"
+I1020 08:58:59.664901       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "1296027" (total events: 6, ignored events: 0)
+I1020 08:58:59.667340       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "1296027"
+I1020 09:03:02.865286       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "1298057" (total events: 8, ignored events: 0)
+I1020 09:03:02.867563       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "1298057"
+I1020 09:08:09.667836       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "1300785" (total events: 10, ignored events: 0)
+I1020 09:08:09.670314       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "1300785"
+I1020 09:09:36.868027       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "1301527" (total events: 8, ignored events: 0)
+I1020 09:09:36.870720       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "1301527"
+I1020 09:13:11.670670       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "1303330" (total events: 5, ignored events: 0)
+I1020 09:13:11.672881       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "1303330"
+I1020 09:19:05.871262       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "1306452" (total events: 10, ignored events: 0)
+I1020 09:19:05.875731       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "1306452"
+I1020 09:20:02.673366       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "1306930" (total events: 7, ignored events: 0)
+I1020 09:20:02.675590       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "1306930"
+I1020 09:24:35.876637       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "1309224" (total events: 6, ignored events: 0)
+I1020 09:24:35.879130       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "1309224"
+I1020 09:25:13.279224       1 run.go:53] It is time for a force-resync
+I1020 09:25:13.281247       1 root.go:92] Parsing files from git dir: /repo/source/c7f2706baa32b930f06aff7b91466e655b24d003/configs-1000-deploys
+I1020 09:28:14.676421       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "1311217" (total events: 9, ignored events: 0)
+I1020 09:28:14.678497       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "1311217"
+I1020 09:28:37.059467       1 kpt_applier.go:220] The applier made new progress: ApplyEvent events (OpType: ServersideApplied): 1001.
+I1020 09:33:25.879699       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "1313844" (total events: 10, ignored events: 0)
+I1020 09:33:25.882504       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "1313844"
+I1020 09:37:11.679067       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "1315766" (total events: 9, ignored events: 0)
+I1020 09:37:11.681469       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "1315766"
+I1020 09:39:43.883014       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "1317156" (total events: 8, ignored events: 0)
+I1020 09:39:43.885457       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "1317156"
+I1020 09:43:55.682106       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "1319271" (total events: 7, ignored events: 0)
+I1020 09:43:55.684664       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "1319271"
+I1020 09:45:47.885882       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "1320182" (total events: 7, ignored events: 0)
+I1020 09:45:47.888633       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "1320182"
+I1020 09:52:32.889238       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "1323762" (total events: 8, ignored events: 0)
+I1020 09:52:32.892029       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "1323762"
+I1020 09:53:01.684972       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "1323985" (total events: 10, ignored events: 0)
+I1020 09:53:01.687517       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "1323985"
+I1020 10:00:31.892258       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "1327934" (total events: 8, ignored events: 0)
+I1020 10:00:31.894432       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "1327934"
+I1020 10:00:54.687998       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "1328136" (total events: 8, ignored events: 0)
+I1020 10:00:54.690119       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "1328136"
+I1020 10:06:29.690650       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "1330920" (total events: 7, ignored events: 0)
+I1020 10:06:29.693244       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "1330920"
+I1020 10:07:35.895017       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "1331560" (total events: 8, ignored events: 0)
+I1020 10:07:35.897527       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "1331560"
+I1020 10:12:51.897792       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "1334292" (total events: 6, ignored events: 0)
+I1020 10:12:51.900350       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "1334292"
+I1020 10:16:02.693484       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "1335897" (total events: 11, ignored events: 0)
+I1020 10:16:02.695979       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "1335897"
+I1020 10:18:59.900888       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "1337554" (total events: 8, ignored events: 0)
+I1020 10:18:59.903712       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "1337554"
+I1020 10:22:39.696746       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "1339366" (total events: 7, ignored events: 0)
+I1020 10:22:39.699301       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "1339366"
+I1020 10:25:13.279166       1 run.go:53] It is time for a force-resync
+I1020 10:25:13.280498       1 root.go:92] Parsing files from git dir: /repo/source/c7f2706baa32b930f06aff7b91466e655b24d003/configs-1000-deploys
+I1020 10:25:44.904204       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "1340926" (total events: 8, ignored events: 0)
+I1020 10:25:44.906174       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "1340926"
+I1020 10:28:36.417833       1 kpt_applier.go:220] The applier made new progress: ApplyEvent events (OpType: ServersideApplied): 1001.
+I1020 10:29:23.699573       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "1342938" (total events: 8, ignored events: 0)
+I1020 10:29:23.701890       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "1342938"
+I1020 10:32:15.906707       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "1344374" (total events: 7, ignored events: 0)
+I1020 10:32:15.909176       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "1344374"
+I1020 10:39:13.702317       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "1348054" (total events: 10, ignored events: 0)
+I1020 10:39:13.705215       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "1348054"
+I1020 10:40:36.910184       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "1348723" (total events: 10, ignored events: 0)
+I1020 10:40:36.914032       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "1348723"
+I1020 10:45:15.705545       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "1351054" (total events: 7, ignored events: 0)
+I1020 10:45:15.707845       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "1351054"
+I1020 10:50:24.912875       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "1353813" (total events: 11, ignored events: 0)
+I1020 10:50:24.915147       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "1353813"
+I1020 10:51:45.708365       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "1354491" (total events: 7, ignored events: 0)
+I1020 10:51:45.710604       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "1354491"
+I1020 10:57:25.711025       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "1357405" (total events: 6, ignored events: 0)
+I1020 10:57:25.713621       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "1357405"
+I1020 10:59:26.915602       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "1358525" (total events: 9, ignored events: 0)
+I1020 10:59:26.918592       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "1358525"
+I1020 11:07:09.713971       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "1362452" (total events: 10, ignored events: 0)
+I1020 11:07:09.716467       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "1362452"
+I1020 11:07:38.919081       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "1362754" (total events: 10, ignored events: 0)
+I1020 11:07:38.921311       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "1362754"
+I1020 11:16:40.921746       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "1367355" (total events: 9, ignored events: 0)
+I1020 11:16:40.924140       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "1367355"
+I1020 11:16:54.716790       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "1367444" (total events: 10, ignored events: 0)
+I1020 11:16:54.719181       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "1367444"
+I1020 11:22:34.924613       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "1370478" (total events: 7, ignored events: 0)
+I1020 11:22:34.927097       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "1370478"
+I1020 11:25:13.279273       1 run.go:53] It is time for a force-resync
+I1020 11:25:13.281047       1 root.go:92] Parsing files from git dir: /repo/source/c7f2706baa32b930f06aff7b91466e655b24d003/configs-1000-deploys
+I1020 11:26:36.719753       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "1372492" (total events: 11, ignored events: 0)
+I1020 11:26:36.723559       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "1372492"
+I1020 11:28:48.491160       1 kpt_applier.go:220] The applier made new progress: ApplyEvent events (OpType: ServersideApplied): 1001.
+I1020 11:31:43.927544       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "1375222" (total events: 10, ignored events: 0)
+I1020 11:31:43.930376       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "1375222"
+I1020 11:34:04.722950       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "1376375" (total events: 8, ignored events: 0)
+I1020 11:34:04.727964       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "1376375"
+I1020 11:40:59.930623       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "1380048" (total events: 11, ignored events: 0)
+I1020 11:40:59.933144       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "1380048"
+I1020 11:42:37.727992       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "1380853" (total events: 10, ignored events: 0)
+I1020 11:42:37.730424       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "1380853"
+I1020 11:47:21.933644       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "1383300" (total events: 8, ignored events: 0)
+I1020 11:47:21.936565       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "1383300"
+I1020 11:49:39.730782       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "1384556" (total events: 8, ignored events: 0)
+I1020 11:49:39.733050       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "1384556"
+I1020 11:56:53.936922       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "1388206" (total events: 10, ignored events: 0)
+I1020 11:56:53.939612       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "1388206"
+I1020 11:59:22.733715       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "1389625" (total events: 11, ignored events: 0)
+I1020 11:59:22.736576       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "1389625"
+I1020 12:04:22.940019       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "1392096" (total events: 8, ignored events: 0)
+I1020 12:04:22.942514       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "1392096"
+I1020 12:05:48.736776       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "1392809" (total events: 7, ignored events: 0)
+I1020 12:05:48.739168       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "1392809"
+I1020 12:13:03.739705       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "1396653" (total events: 8, ignored events: 0)
+I1020 12:13:03.742738       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "1396653"
+I1020 12:14:14.942809       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "1397229" (total events: 11, ignored events: 0)
+I1020 12:14:14.945597       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "1397229"
+I1020 12:18:16.742885       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "1399425" (total events: 6, ignored events: 0)
+I1020 12:18:16.745473       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "1399425"
+I1020 12:20:48.946211       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "1400700" (total events: 8, ignored events: 0)
+I1020 12:20:48.948976       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "1400700"
+I1020 12:25:13.279291       1 run.go:53] It is time for a force-resync
+I1020 12:25:13.280622       1 root.go:92] Parsing files from git dir: /repo/source/c7f2706baa32b930f06aff7b91466e655b24d003/configs-1000-deploys
+I1020 12:28:01.749973       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "1404468" (total events: 10, ignored events: 0)
+I1020 12:28:01.752961       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "1404468"
+I1020 12:28:47.829634       1 kpt_applier.go:220] The applier made new progress: ApplyEvent events (OpType: ServersideApplied): 1001.
+I1020 12:29:33.949293       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "1405277" (total events: 10, ignored events: 0)
+I1020 12:29:33.951839       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "1405277"
+I1020 12:35:41.753616       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "1408331" (total events: 8, ignored events: 0)
+I1020 12:35:41.755982       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "1408331"
+I1020 12:37:53.952187       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "1409571" (total events: 9, ignored events: 0)
+I1020 12:37:53.954612       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "1409571"
+I1020 12:45:00.756245       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "1413180" (total events: 10, ignored events: 0)
+I1020 12:45:00.758920       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "1413180"
+I1020 12:45:10.954756       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "1413261" (total events: 8, ignored events: 0)
+I1020 12:45:10.957245       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "1413261"
+I1020 12:52:34.957380       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "1417149" (total events: 9, ignored events: 0)
+I1020 12:52:34.960253       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "1417149"
+I1020 12:52:53.759895       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "1417293" (total events: 9, ignored events: 0)
+I1020 12:52:53.762543       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "1417293"
+I1020 13:00:19.960456       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "1421190" (total events: 9, ignored events: 0)
+I1020 13:00:19.963056       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "1421190"
+I1020 13:02:38.762737       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "1422365" (total events: 10, ignored events: 0)
+I1020 13:02:38.765533       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "1422365"
+I1020 13:07:51.963580       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "1425088" (total events: 9, ignored events: 0)
+I1020 13:07:51.966100       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "1425088"
+I1020 13:11:20.765734       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "1426887" (total events: 10, ignored events: 0)
+I1020 13:11:20.768255       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "1426887"
+I1020 13:15:18.966268       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "1428871" (total events: 8, ignored events: 0)
+I1020 13:15:18.968964       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "1428871"
+I1020 13:16:39.768874       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "1429539" (total events: 6, ignored events: 0)
+I1020 13:16:39.771791       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "1429539"
+I1020 13:21:36.969292       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "1432238" (total events: 8, ignored events: 0)
+I1020 13:21:36.971913       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "1432238"
+I1020 13:25:13.279278       1 run.go:53] It is time for a force-resync
+I1020 13:25:13.281277       1 root.go:92] Parsing files from git dir: /repo/source/c7f2706baa32b930f06aff7b91466e655b24d003/configs-1000-deploys
+I1020 13:26:16.771979       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "1434555" (total events: 10, ignored events: 0)
+I1020 13:26:16.774303       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "1434555"
+I1020 13:28:27.972257       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "1435846" (total events: 7, ignored events: 0)
+I1020 13:28:28.051041       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "1435846"
+I1020 13:28:45.045146       1 kpt_applier.go:220] The applier made new progress: ApplyEvent events (OpType: ServersideApplied): 1001.
+I1020 13:33:18.775034       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "1438248" (total events: 7, ignored events: 0)
+I1020 13:33:18.777643       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "1438248"
+I1020 13:35:31.975205       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "1439351" (total events: 9, ignored events: 0)
+I1020 13:35:31.977521       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "1439351"
+I1020 13:38:47.777906       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "1441179" (total events: 6, ignored events: 0)
+I1020 13:38:47.780299       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "1441179"
+I1020 13:43:48.780832       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "1443686" (total events: 5, ignored events: 0)
+I1020 13:43:48.783387       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "1443686"
+I1020 13:45:01.977744       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "1444303" (total events: 10, ignored events: 0)
+I1020 13:45:01.979928       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "1444303"
+I1020 13:50:10.784145       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "1447059" (total events: 8, ignored events: 0)
+I1020 13:50:10.786772       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "1447059"
+I1020 13:50:33.980167       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "1447228" (total events: 7, ignored events: 0)
+I1020 13:50:33.982579       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "1447228"
+I1020 13:56:50.983572       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "1450427" (total events: 8, ignored events: 0)
+I1020 13:56:50.986247       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "1450427"
+I1020 13:59:26.787209       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "1451866" (total events: 10, ignored events: 0)
+I1020 13:59:26.789672       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "1451866"
+I1020 14:06:46.986440       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "1455555" (total events: 11, ignored events: 0)
+I1020 14:06:46.989222       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "1455555"
+I1020 14:09:03.790395       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "1456890" (total events: 10, ignored events: 0)
+I1020 14:09:03.793260       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "1456890"
+I1020 14:12:37.989369       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "1458667" (total events: 7, ignored events: 0)
+I1020 14:12:37.992506       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "1458667"
+I1020 14:15:34.793536       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "1460119" (total events: 8, ignored events: 0)
+I1020 14:15:34.795984       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "1460119"
+I1020 14:20:17.998240       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "1462672" (total events: 9, ignored events: 0)
+I1020 14:20:18.001228       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "1462672"
+I1020 14:21:26.796745       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "1463246" (total events: 6, ignored events: 0)
+I1020 14:21:26.799180       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "1463246"
+I1020 14:25:13.279343       1 run.go:53] It is time for a force-resync
+I1020 14:25:13.281156       1 root.go:92] Parsing files from git dir: /repo/source/c7f2706baa32b930f06aff7b91466e655b24d003/configs-1000-deploys
+I1020 14:28:39.807102       1 kpt_applier.go:220] The applier made new progress: ApplyEvent events (OpType: ServersideApplied): 1001.
+I1020 14:29:22.001521       1 filteredwatcher.go:220] Ending watch for /v1, Kind=Namespace at resource version "1467434" (total events: 10, ignored events: 0)
+I1020 14:29:22.011943       1 filteredwatcher.go:191] (Re)starting watch for /v1, Kind=Namespace at resource version "1467434"
+I1020 14:29:57.799580       1 filteredwatcher.go:220] Ending watch for apps/v1, Kind=Deployment at resource version "1467715" (total events: 10, ignored events: 0)
+I1020 14:29:57.807849       1 filteredwatcher.go:191] (Re)starting watch for apps/v1, Kind=Deployment at resource version "1467715"
