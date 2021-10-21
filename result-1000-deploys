@@ -3,7 +3,6 @@ first run: 58s
 				14:56:41
 	lastUpdate: "2021-10-18T14:57:39Z"
 
-
 1.9.0 multi repo mode - 1000 deploys
 first run: 3m 31s
     lastUpdate: "2021-10-18T15:08:14Z"
@@ -14,17 +13,29 @@ second run: 3m 22s
 third run: 3m 31s
         lastUpdate: "2021-10-20T01:21:46Z"
       lastUpdate: "2021-10-20T01:25:17Z"
+4th run: 3m 29s
+    lastUpdate: "2021-10-20T18:03:16Z"
+    lastUpdate: "2021-10-20T18:06:55Z"
+
 
 1.10.0 multi repo mode - 1000 deploys
-first run: 4m 03s
-	lastUpdate: "2021-10-18T15:56:30Z"
-	lastUpdate: "2021-10-18T16:00:33Z"
-second run: 3m 29s
-    lastUpdate: "2021-10-18T16:34:12Z"
-    lastUpdate: "2021-10-18T16:37:41Z"
-third run: 3m 22s
-    lastUpdate: "2021-10-18T16:40:36Z"
-    lastUpdate: "2021-10-18T16:43:58Z"
+4th run: 1m 15s
+    lastUpdate: "2021-10-20T17:40:04Z"
+    lastUpdate: "2021-10-20T17:41:19Z"
+5th run: 1m 28s
+    lastUpdate: "2021-10-20T17:46:55Z"
+    lastUpdate: "2021-10-20T17:48:23Z"
+6th run: 2m 21s
+    lastUpdate: "2021-10-20T17:51:05Z"
+    lastUpdate: "2021-10-20T17:53:36Z"
+7th run: 1m 52s
+    lastUpdate: "2021-10-20T17:56:46Z"
+    lastUpdate: "2021-10-20T17:58:38Z"
+run: 1m 19s
+        lastUpdate: "2021-10-20T20:41:42Z"
+    lastUpdate: "2021-10-20T20:43:01Z"
+
+
 
 
 1.10.0 mono repo mode - 1000 deploys

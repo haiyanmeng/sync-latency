@@ -19,16 +19,16 @@ kind: PubSubTopic
 metadata:
   labels:
     environment: staging
-  name: test-cs
+  name: test-cs134
   namespace: foo134
 ---
 apiVersion: iam.cnrm.cloud.google.com/v1beta1
 kind: IAMPolicyMember
 metadata:
-  name: policy-member-binding
+  name: policy-member-binding134
   namespace: foo134
 spec:
-  member: serviceAccount:pubsub-app@haiyanmeng-gke-322517.iam.gserviceaccount.com
+  member: serviceAccount:pubsub-app134@haiyanmeng-gke-322517.iam.gserviceaccount.com
   role: roles/pubsub.subscriber
   resourceRef:
     apiVersion: resourcemanager.cnrm.cloud.google.com/v1beta1
@@ -38,7 +38,7 @@ spec:
 apiVersion: iam.cnrm.cloud.google.com/v1beta1
 kind: IAMServiceAccount
 metadata:
-  name: pubsub-app
+  name: pubsub-app134
   namespace: foo134
 spec:
   displayName: Service account for PubSub example
@@ -46,8 +46,8 @@ spec:
 apiVersion: pubsub.cnrm.cloud.google.com/v1beta1
 kind: PubSubSubscription
 metadata:
-  name: test-cs-read
+  name: test-cs-read134
   namespace: foo134
 spec:
   topicRef:
-    name: test-cs
+    name: test-cs134

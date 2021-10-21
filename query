@@ -1,0 +1,9 @@
+From https://cloud.google.com/config-connector/docs/troubleshooting#using_for_advanced_log_querying
+
+resource.type="k8s_container"
+resource.labels.container_name="manager"
+resource.labels.namespace_name="cnrm-system"
+labels.k8s-pod/cnrm_cloud_google_com/component="cnrm-controller-manager"
+jsonPayload.logger="containercluster-controller"
+jsonPayload.resource.namespace="foo"
+jsonPayload.resource.name="foo-us-central1-f-83"

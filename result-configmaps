@@ -94,6 +94,18 @@ first run: 5m 10s
 seconds run: 4m 22s
     lastUpdate: "2021-10-14T19:56:19Z"
     lastUpdate: "2021-10-14T20:00:41Z"
+run: 4m 35s
+    lastUpdate: "2021-10-20T20:25:34Z"
+    lastUpdate: "2021-10-20T20:30:09Z"
+
+thrid run on a kcc-enabled cluster: 8m (no retry)
+    lastUpdate: "2021-10-20T19:39:49Z"
+    lastUpdate: "2021-10-20T19:48:30Z"
+4th run on a kcc-enabled cluster: 13m (no retry)
+    lastUpdate: "2021-10-20T19:46:35Z"
+    lastUpdate: "2021-10-20T19:59:37Z"
+
+
 
 1.10.0 Mono-repo mode Sync 10000 ConfigMaps (10 Namespaces, and 1000 ConfigMaps in every Namespace):
 first run: 8m 35s
