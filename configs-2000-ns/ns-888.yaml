@@ -1,0 +1,22 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: my-ns-888
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: cm-1
+  namespace: my-ns-888
+data:
+  foo: bar
+  bar: my-ns-888
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: cm-2
+  namespace: my-ns-888
+data:
+  foo: bar
+  bar: my-ns-888

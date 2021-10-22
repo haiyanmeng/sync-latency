@@ -8,6 +8,10 @@ second run: 33m
 third run: 33m
 			00:21:49
       lastUpdate: "2021-10-20T00:54:29Z"
+run: 13m
+		14:03:41
+    lastUpdate: "2021-10-21T14:16:38Z"
+
 
 
 1.9.0 multi-repo mode 1000 ns (each ns has one service.serviceusage.cnrm.cloud.google.com, pubsubtopic.pubsub.cnrm.cloud.google.com, pubsubsubscription.pubsub.cnrm.cloud.google.com, iampolicymember.iam.cnrm.cloud.google.com, iamserviceaccount.iam.cnrm.cloud.google.com)
@@ -20,6 +24,10 @@ second run: 58m
 third run: 42m (one retry)
       lastUpdate: "2021-10-20T01:32:03Z"
       lastUpdate: "2021-10-20T02:14:20Z"
+run: 40m (one retry)
+    lastUpdate: "2021-10-21T14:00:43Z"
+    lastUpdate: "2021-10-21T14:41:40Z"
+
 
 1.10.0 mono-repo mode 1000 ns (each ns has one service.serviceusage.cnrm.cloud.google.com, pubsubtopic.pubsub.cnrm.cloud.google.com, pubsubsubscription.pubsub.cnrm.cloud.google.com, iampolicymember.iam.cnrm.cloud.google.com, iamserviceaccount.iam.cnrm.cloud.google.com)
 first run: 56m 2s

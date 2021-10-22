@@ -1,0 +1,22 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: my-ns-640
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: cm-1
+  namespace: my-ns-640
+data:
+  foo: bar
+  bar: my-ns-640
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: cm-2
+  namespace: my-ns-640
+data:
+  foo: bar
+  bar: my-ns-640
