@@ -8,6 +8,7 @@ second run: 33m
 third run: 33m
 			00:21:49
       lastUpdate: "2021-10-20T00:54:29Z"
+run: 35m
 run: 13m
 		14:03:41
     lastUpdate: "2021-10-21T14:16:38Z"
@@ -27,6 +28,18 @@ third run: 42m (one retry)
 run: 40m (one retry)
     lastUpdate: "2021-10-21T14:00:43Z"
     lastUpdate: "2021-10-21T14:41:40Z"
+run on a fresh cluster: 66m reconciler.1.9.kcc.pubsubs.success.1
+      lastUpdate: "2021-10-22T20:44:17Z"
+      lastUpdate: "2021-10-22T21:50:48Z"
+run on a fresh cluster: 66m reconciler.1.9.kcc.pubsubs.success.2
+      lastUpdate: "2021-10-22T20:41:33Z"
+      lastUpdate: "2021-10-22T21:47:28Z"
+run on a non-fresh cluster with all the objects being applied successfully already: 
+	20 min: log reconciler.1.9.kcc.pubsubs.csmr.1  reconciler.1.9.kcc.pubsubs.csmr.2
+
+
+
+
 
 
 1.10.0 mono-repo mode 1000 ns (each ns has one service.serviceusage.cnrm.cloud.google.com, pubsubtopic.pubsub.cnrm.cloud.google.com, pubsubsubscription.pubsub.cnrm.cloud.google.com, iampolicymember.iam.cnrm.cloud.google.com, iamserviceaccount.iam.cnrm.cloud.google.com)
@@ -36,23 +49,75 @@ first run: 56m 2s
 second run: 34m
 			17:16:42
       lastUpdate: "2021-10-19T17:50:06Z"
+run on a fresh cluster:  37m
+        startedAt: "2021-10-22T15:56:20Z"
+	      lastUpdate: "2021-10-22T16:33:58Z"
+run on a fresh cluster: 31m
+            startedAt: "2021-10-22T16:08:27Z"
+      lastUpdate: "2021-10-22T16:38:52Z"
+run on a fresh cluster: 27m
+run on a fresh cluster: 23m
+run on a non-fresh cluster with all the objects being applied successfully already: 
+	5.5m
 
 
 
 1.10.0 multi-repo mode 1000 ns (each ns has one service.serviceusage.cnrm.cloud.google.com, pubsubtopic.pubsub.cnrm.cloud.google.com, pubsubsubscription.pubsub.cnrm.cloud.google.com, iampolicymember.iam.cnrm.cloud.google.com, iamserviceaccount.iam.cnrm.cloud.google.com)
-first run: 60m
-      lastUpdate: "2021-10-19T15:27:32Z"
-      lastUpdate: "2021-10-19T16:27:07Z"
-second run: 87m
-      lastUpdate: "2021-10-19T17:18:36Z"
-      lastUpdate: "2021-10-19T18:45:22Z"
-third run: 48m
-	    lastUpdateTime: "2021-10-20T20:31:21Z"
-      lastUpdate: "2021-10-20T21:18:32Z"
-	the first reconciliation takes about 11 minutes to finish;
-run: 5m
-      lastUpdate: "2021-10-21T00:34:47Z"
-      lastUpdate: "2021-10-21T00:39:33Z"
+run on a fresh cluster: 51m    retry once
+    lastUpdate: "2021-10-22T10:17:18Z"
+    lastUpdate: "2021-10-22T11:08:34Z"
+run on a fresh cluster: 53m retry once log: reconciler.1.10.kcc.pubsubs.success.3
+    lastUpdate: "2021-10-22T11:12:40Z"
+    lastUpdate: "2021-10-22T12:05:12Z"
+run on a fresh cluster: 50m retry once log: reconciler.1.10.kcc.pubsubs.success.4
+    lastUpdate: "2021-10-22T11:16:32Z"
+    lastUpdate: "2021-10-22T12:06:01Z"
+run on a fresh cluster: 29m   log: reconciler.1.10.kcc.pubsubs.success.6
+    lastUpdate: "2021-10-22T16:20:45Z"
+    lastUpdate: "2021-10-22T16:49:03Z"
+run on a fresh cluster: 47m one retry for applier log: reconciler.1.10.kcc.pubsubs.success.8
+      lastUpdate: "2021-10-22T20:19:50Z"
+      lastUpdate: "2021-10-22T21:06:36Z"
+run on a fresh cluster: 52m one retry for applier log: reconciler.1.10.kcc.pubsubs.success.9
+      lastUpdate: "2021-10-22T20:13:20Z"
+      lastUpdate: "2021-10-22T21:05:15Z"
+run on a fresh cluster: 40m one retry for applier log: reconciler.1.10.kcc.pubsubs.success.10
+    rendering:
+      commit: 59aaba270527bb1ae17525724cc20a96d246edb7
+      gitStatus:
+        branch: main
+        dir: kcc/pubsubs
+        repo: https://github.com/haiyanmeng/sync-latency
+        revision: HEAD
+      lastUpdate: "2021-11-02T23:54:13Z"
+      message: Rendering skipped
+    source:
+      commit: 59aaba270527bb1ae17525724cc20a96d246edb7
+      gitStatus:
+        branch: main
+        dir: kcc/pubsubs
+        repo: https://github.com/haiyanmeng/sync-latency
+        revision: HEAD
+      lastUpdate: "2021-11-03T00:54:08Z"
+    sync:
+      commit: 59aaba270527bb1ae17525724cc20a96d246edb7
+      gitStatus:
+        branch: main
+        dir: kcc/pubsubs
+        repo: https://github.com/haiyanmeng/sync-latency
+        revision: HEAD
+      lastUpdate: "2021-11-03T01:00:37Z"
+
+
+
+
+run on a non-fresh cluster with all the objects being applied successfully already: 7m
+log: reconciler.1.10.kcc.pubsubs.success.2 reconciler.1.10.kcc.pubsubs.success.5
+        lastUpdate: "2021-10-22T11:22:59Z"
+    lastUpdate: "2021-10-22T11:29:28Z"
+
+
+
 
 
 
