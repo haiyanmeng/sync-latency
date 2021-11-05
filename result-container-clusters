@@ -46,6 +46,10 @@ second run: 1m 26s
 third run: 2m 03s
     lastUpdate: "2021-10-20T19:35:51Z"
     lastUpdate: "2021-10-20T19:37:54Z"
+run: 1m 45s
+      lastUpdate: "2021-11-03T19:15:35Z"
+      lastUpdate: "2021-11-03T19:17:20Z"
+
 
 
 haiyanmeng@haiyanmeng:sync-latency$ kubectl get containercluster.container.cnrm.cloud.google.com  -n default | grep "UpToDate" | wc -l

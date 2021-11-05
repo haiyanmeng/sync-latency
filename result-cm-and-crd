@@ -1,0 +1,17 @@
+1.10 multi-repo
+run: 10 min
+	one retry
+	log file: log.cm.and.crd.1
+	17:14:08
+	17:24:10
+run: 9 min 28 sec
+	one retry
+	log file: log.cm.and.crd.2
+	17:16:36
+	17:26:02
+run: 9 min 29 sec
+	one retry
+	log file: log.cm.and.crd.3
+	17:17:13
+	17:26:42
+

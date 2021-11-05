@@ -1,0 +1,25 @@
+# config-management.yaml
+apiVersion: configmanagement.gke.io/v1
+kind: ConfigManagement
+metadata:
+  name: config-management
+spec:
+  sourceFormat: unstructured
+  patches:
+  - apiVersion: apps/v1
+    kind: Deployment
+    metadata:
+      name: git-importer
+      namespace: config-management-system
+    spec:
+      template:
+        spec:
+          containers:
+          - name: importer
+            resources:
+              limits:
+                memory: "1000Mi"
+  git:
+    syncRepo: https://github.com/config-sync-examples/2.5k-namespaces-test
+    syncBranch: main
+    secretType: none

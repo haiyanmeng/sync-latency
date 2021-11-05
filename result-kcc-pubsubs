@@ -81,34 +81,13 @@ run on a fresh cluster: 47m one retry for applier log: reconciler.1.10.kcc.pubsu
 run on a fresh cluster: 52m one retry for applier log: reconciler.1.10.kcc.pubsubs.success.9
       lastUpdate: "2021-10-22T20:13:20Z"
       lastUpdate: "2021-10-22T21:05:15Z"
-run on a fresh cluster: 40m one retry for applier log: reconciler.1.10.kcc.pubsubs.success.10
-    rendering:
-      commit: 59aaba270527bb1ae17525724cc20a96d246edb7
-      gitStatus:
-        branch: main
-        dir: kcc/pubsubs
-        repo: https://github.com/haiyanmeng/sync-latency
-        revision: HEAD
-      lastUpdate: "2021-11-02T23:54:13Z"
-      message: Rendering skipped
-    source:
-      commit: 59aaba270527bb1ae17525724cc20a96d246edb7
-      gitStatus:
-        branch: main
-        dir: kcc/pubsubs
-        repo: https://github.com/haiyanmeng/sync-latency
-        revision: HEAD
-      lastUpdate: "2021-11-03T00:54:08Z"
-    sync:
-      commit: 59aaba270527bb1ae17525724cc20a96d246edb7
-      gitStatus:
-        branch: main
-        dir: kcc/pubsubs
-        repo: https://github.com/haiyanmeng/sync-latency
-        revision: HEAD
-      lastUpdate: "2021-11-03T01:00:37Z"
-
-
+run on a fresh cluster: 40m one retry for applier log: reconciler.1.10.kcc.pubsubs.success.10 one retry
+run on a fresh cluster: 50m one retry for applier log: reconciler.1.10.kcc.pubsubs.success.11 one retry
+	14:09:00.575116
+	14:59:51
+run on a fresh cluster: 41m one retry for applier log: reconciler.1.10.kcc.pubsubs.success.12 one retry
+	14:11:25
+	14:52:47
 
 
 run on a non-fresh cluster with all the objects being applied successfully already: 7m

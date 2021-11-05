@@ -275,6 +275,13 @@ spec:
                       policyController is not enabled. Default: true.'
                     type: boolean
                 type: object
+              preventDrift:
+                description: 'preventDrift, if set to `true`, enables the Config Sync
+                  admission webhook to prevent drifts. If set to `false`, disables
+                  the Config Sync admission webhook and does not prevent drifts. Default:
+                  false. Config Sync always corrects drifts no matter the value of
+                  preventDrift.'
+                type: boolean
               sourceFormat:
                 description: "SourceFormat specifies how the repository is formatted.
                   See documentation for specifics of what these options do. \n Must
