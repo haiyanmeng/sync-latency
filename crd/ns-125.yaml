@@ -11,3 +11,12 @@ metadata:
   namespace: foo125
 spec:
   cronSpec: "* * * * */5"
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: cm1
+  namespace: foo125
+data:
+  foo: bar
+  bar: my-ns-1

@@ -57,5 +57,14 @@ metadata:
   namespace: foo${ns}
 spec:
   cronSpec: "* * * * */5"
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: cm1
+  namespace: foo${ns}
+data:
+  foo: bar
+  bar: my-ns-1
 EOF
 done
