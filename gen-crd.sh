@@ -63,6 +63,8 @@ kind: ConfigMap
 metadata:
   name: cm1
   namespace: foo${ns}
+  labels:
+    StressTestName: TestStressCRD
 data:
   foo: bar
   bar: my-ns-1

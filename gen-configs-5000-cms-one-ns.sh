@@ -15,6 +15,8 @@ kind: ConfigMap
 metadata:
   name: cm-${cm}
   namespace: my-ns-1
+  labels:
+    StressTestName: TestStressLargeNamespace
 data:
   foo: bar
   bar: my-ns-1
