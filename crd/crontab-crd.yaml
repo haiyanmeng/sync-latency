@@ -20,7 +20,7 @@ spec:
           spec:
             type: object
             properties:
-              cronSpec:
+              cronSpec1:
                 type: string
               image:
                 type: string
