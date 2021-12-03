@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: cm-9084
+  namespace: bookstore
+data:
+  foo: bar
+  bar: my-ns-1
