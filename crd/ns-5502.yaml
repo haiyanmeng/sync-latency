@@ -1,0 +1,24 @@
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: foo5502
+---
+apiVersion: "stable.example.com/v1"
+kind: CronTab
+metadata:
+  name: my-cron-object
+  namespace: foo5502
+spec:
+  cronSpec: "* * * * */5"
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: cm1
+  namespace: foo5502
+  labels:
+    StressTestName: TestStressCRD
+data:
+  foo: bar
+  bar: my-ns-1
