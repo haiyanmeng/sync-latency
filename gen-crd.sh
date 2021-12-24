@@ -41,7 +41,7 @@ spec:
     - ct
 EOF
 
-for ns in {1..1000}
+for ns in {1..10000}
 do
   cat > crd/ns-${ns}.yaml <<EOF
 ---
