@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: ConfigMap
 metadata:
-  name: cm-1
+  name: cm-1-a
   namespace: my-ns-1
 data:
   foo: bar
